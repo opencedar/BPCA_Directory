@@ -1,0 +1,52 @@
+---
+title: "Battery Park Directory"
+author: "Mary Carpenter"
+date: "November 16, 2015"
+output:
+    pdf_document:
+        pandoc_args: [
+      "-R", "--parse-raw"
+    ]
+latex: TRUE
+header-includes:
+   - \usepackage{multicol}
+---
+#Alphabetical Address List
+\begin{multicols}{2}
+```{r  dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
+
+source("executable.R")
+for(i in 1:length(directoryEntriesFull)){
+        cat(directoryEntriesFull[i])
+        cat(" \\par ")
+}
+```
+\end{multicols}
+
+\pagebreak
+
+#Last Name Index
+
+\begin{multicols}{2}
+```{r dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
+
+for(i in 1:length(directoryEntriesIndex)){
+        cat(directoryEntriesIndex[i])
+        cat(" \\par ")
+}
+```
+\end{multicols}
+
+\pagebreak
+
+#Street Name Index
+
+\begin{multicols}{2}
+```{r dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
+
+for(i in 1:length(streetEntries)){
+        cat(streetEntries[i])
+        cat(" \\par ")
+}
+```
+\end{multicols}
