@@ -1,7 +1,8 @@
 rm(list=ls())
 source("utilities.R")
 
-directoryFrame <- getDirectory("https://docs.google.com/spreadsheets/d/1rw6ULPvCh5P4EAn3PhYpl3npqNHdpkuO9hxvwwbYuVc")
+location <- scan ("sheetLocation", what="character")
+directoryFrame <- getDirectory(location)
 
 lastNameCols <- c("LastName1", "LastName2", "LastName3", "LastName4")
 firstNameCols <- c("FirstName1", "FirstName2", "FirstName3", "FirstName4")
