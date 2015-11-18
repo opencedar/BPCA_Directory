@@ -1,7 +1,6 @@
 ---
 title: "Battery Park Directory"
-author: "Mary Carpenter"
-date: "November 16, 2015"
+date: "Fall 2015"
 output:
     pdf_document:
         pandoc_args: [
@@ -10,38 +9,48 @@ output:
 latex: TRUE
 header-includes:
    - \usepackage{multicol}
+   - \usepackage{fancyhdr}
+ 
+
 ---
-#Alphabetical Address List
+\pagestyle{fancy}
+\fontsize{10}{10}
+\fontfamily{pbk}
+
+
+
+Battery Park is a community in Bethesda bordered roughly by Old Georgetown Road to the northeast, Wilson Lane on the Southwest, Custer Lane to the West, and Huntington Parkway to the Northwest, forming a rough triangle. Around 200 homes make up the community. 
+
+Battery Park is lucky to be one of the few neighborhoods to enjoy its own Clubhouse, which residents have the privilege of using. The Clubhouse grounds include two tennis courts, a children's playground, and an open field area. The Clubhouse itself...
+
+![](BP_Playground.jpg)
+Above: Battery Park's playground was renovated in 2012.
+\pagebreak
+\fancyhf{}
+\rhead{Battery Park Directory 2015}
+\lhead{By Last Name}
+\rfoot{Page \thepage}
+
+#Alphabetical List of Battery Park Residents by Last Name
 \begin{multicols}{2}
+
 ```{r  dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
-
 source("executable.R")
-for(i in 1:length(directoryEntriesFull)){
-        cat(directoryEntriesFull[i])
+for(i in 1:length(directoryEntriesAll)){
+        cat(directoryEntriesAll[i])
         cat(" \\par ")
 }
 ```
 \end{multicols}
 
-\pagebreak
-
-#Last Name Index
-
-\begin{multicols}{2}
-```{r dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
-
-for(i in 1:length(directoryEntriesIndex)){
-        cat(directoryEntriesIndex[i])
-        cat(" \\par ")
-}
-```
-\end{multicols}
 
 \pagebreak
+
+\lhead{Street Name Index}
 
 #Street Name Index
 
-\begin{multicols}{2}
+\begin{multicols}{3}
 ```{r dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
 
 for(i in 1:length(streetEntries)){

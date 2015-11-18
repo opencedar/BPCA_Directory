@@ -10,9 +10,11 @@ chilYearBornCols<- c("childYearBorn1", "childYearBorn2", "childYearBorn3", "chil
 
 sortedNamesFrameAll <- uniqueLast(directoryFrame, lastNameCols, firstNameCols)
 sortedNamesFrameFull <- fullVectors(sortedNamesFrameAll)
-directoryEntriesFull <- makeDirectoryEntriesFull(sortedNamesFrameFull, directoryFrame)
 sortedNamesFrameIndex <- sortedNamesFrameAll[sortedNamesFrameAll$useInIndex==TRUE,]
 directoryEntriesIndex <- makeLastNameIndex(sortedNamesFrameIndex, directoryFrame)
 streetFrame <- makeStreetFrame(directoryFrame)
 streetFrame <- makeStreetStarts(streetFrame)
 streetEntries <- makeStreetEntries(streetFrame)
+letterStarts <- makeLetterStarts(directoryFrame, sortedNamesFrameAll)
+sortedNamesFrameAll <- cbind(sortedNamesFrameAll, letterStarts)
+directoryEntriesAll <- makeDirectoryEntriesAll(sortedNamesFrameAll, dataFrame=directoryFrame)

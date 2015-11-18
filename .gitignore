@@ -1,4 +1,8 @@
-.Rproject
+*.Rproj
 .pdf
 *Directory_cache/
 .csv
+.RData
+.RHistory
+.Rhistory
+.Rproj.user

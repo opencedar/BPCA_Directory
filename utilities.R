@@ -1,3 +1,5 @@
+isNotNullNAEmpty <- function(x) {(!is.null(x) && !is.na(x) && (nchar(x)>0))}
+
 getDirectory <- function(googleAddress) {
         require(gsheet)
         dataFrame <- gsheet2tbl(googleAddress)
@@ -18,6 +20,7 @@ uniqueLast <- function(directoryData, lastNameCols, firstNameCols) {
                 sortedNamesFrame <- rbind(sortedNamesFrame, insert)
         }
         sortedNamesFrame <- sortedNamesFrame[-1,]
+        sortedNamesFrame <-sortedNamesFrame[order(sortedNamesFrame$lastName, sortedNamesFrame$firstName),]
         return(sortedNamesFrame)
 }
 
@@ -25,75 +28,6 @@ fullVectors <- function(sortedNamesFrame) {
         fullNamesFrame <- sortedNamesFrame[sortedNamesFrame$Full==TRUE,]
 }
 
-makeDirectoryEntriesFull <- function(sortedNamesFrameFull, dataFrame) {
-        directoryEntries <- vector(length = nrow(sortedNamesFrameFull))
-        for(i in 1:nrow(sortedNamesFrameFull)) {
-                x <- with(dataFrame[sortedNamesFrameFull$Index[i],], paste0(
-                        LastName1,
-                        ", ",
-                        FirstName1,
-                        if(!is.na(LastName2)) {" and "} else {""},
-                        if(!is.na(LastName2)) {LastName2} else {""},
-                        if(!is.na(LastName2)) {", "} else {""},
-                        if(!is.na(LastName2)) {FirstName2} else {""},
-                        if(!is.na(LastName3)) {" and "} else {""},
-                        if(!is.na(LastName3)) {LastName3} else {""},
-                        if(!is.na(LastName3)) {", "} else {""},
-                        if(!is.na(LastName3)) {FirstName3} else {""},
-                        if(!is.na(LastName4)) {" and "} else {""},
-                        if(!is.na(LastName4)) {LastName4} else {""},
-                        if(!is.na(LastName4)) {", "} else {""},
-                        if(!is.na(LastName4)) {FirstName4} else {""},
-                        " \\newline ",
-                        if(!is.na(ChildName1)) {ChildName1} else {""},
-                        if(!is.na(ChildName1)) {", Born "} else {""},
-                        if(!is.na(ChildName1)) {ChildYearBorn1} else {""},
-                        if(!is.na(ChildName1)) {"; "} else {""},
-                        if(!is.na(ChildName2)) {ChildName2} else {""},
-                        if(!is.na(ChildName2)) {", Born "} else {""},
-                        if(!is.na(ChildName2)) {ChildYearBorn2} else {""},
-                        if(!is.na(ChildName2)) {"; "} else {""},
-                        if(!is.na(ChildName3)) {ChildNameBorn3} else {""},
-                        if(!is.na(ChildName3)) {", Born "} else {""},
-                        if(!is.na(ChildName3)) {ChildYearBorn3} else {""},
-                        if(!is.na(ChildName3)) {"; "} else {""},
-                        if(!is.na(ChildName4)) {ChildName4} else {""},
-                        if(!is.na(ChildName4)) {", Born "} else {""},
-                        if(!is.na(ChildName4)) {ChildYear4} else {""},
-                        if(!is.na(ChildName4)) {"; "} else {""},
-                        if(!is.na(ChildName5)) {ChildName5} else {""},
-                        if(!is.na(ChildName5)) {", Born "} else {""},
-                        if(!is.na(ChildName5)) {ChildYearBorn5} else {""},
-                        if(!is.na(ChildName5)) {"; "} else {""},
-                        if(!is.na(ChildName6)) {ChildName6} else {""},
-                        if(!is.na(ChildName6)) {", Born "} else {""},
-                        if(!is.na(ChildName6)) {ChildYearBorn6} else {""},
-                        if(!is.na(ChildName6)) {"; "} else {""},
-                        " \\newline ",
-                        StreetNumber,
-                        " ",
-                        StreetName,
-                        " \\newline ",
-                        "Home Phone: ",
-                        HomePhone,
-                        " \\newline ",
-                        if(!is.na(CellPhone1)) {"Cell Phone 1: "} else {""},
-                        if(!is.na(CellPhone1)) {CellPhone1} else {""},
-                        if(!is.na(CellPhone1)) {" \\newline "} else {""},
-                        if(!is.na(CellPhone2)) {"Cell Phone 2: "} else {""},
-                        if(!is.na(CellPhone2)) {CellPhone2} else {""},
-                        if(!is.na(CellPhone2)) {" \\newline "} else {""},
-                        if(!is.na(Email1)) {"Email 1: "} else {""},
-                        if(!is.na(Email1)) {Email1} else {""},
-                        if(!is.na(Email1)) {" \\newline "} else {""},
-                        if(!is.na(Email2)) {"Email 2: "} else {""},
-                        if(!is.na(Email2)) {Email2} else {""},
-                        if(!is.na(Email2)) {" \\newline "} else {""}
-                        ))
-                directoryEntries[i] <- x
-        }
-        return(directoryEntries)
-}
 
 makeLastNameIndex <- function(sortedNamesFrameIndex, dataFrame) {
         directoryEntries <- vector(length = nrow(sortedNamesFrameIndex))
@@ -137,72 +71,88 @@ makeStreetEntries <- function(streetFrame) {
         for(i in 1:nrow(streetFrame)) {
                 x <- with(streetFrame[i,], paste0(
                         if(streetStarts == TRUE) {
-                        paste0("\\textbf{\\uppercase{", StreetName, "}} \\newline \\newline  ")
+                        paste0("\\textbf{\\uppercase{", StreetName, "}} \\newline \\newline")
                         },
                         StreetNumber,
-                        " ",
-                        StreetName,
-                        " \\newline ",
-                        LastName1,
-                        ", ",
-                        FirstName1,
-                        if(!is.na(LastName2)) {" and "} else {""},
-                        if(!is.na(LastName2)) {LastName2} else {""},
-                        if(!is.na(LastName2)) {", "} else {""},
-                        if(!is.na(LastName2)) {FirstName2} else {""},
-                        if(!is.na(LastName3)) {" and "} else {""},
-                        if(!is.na(LastName3)) {LastName3} else {""},
-                        if(!is.na(LastName3)) {", "} else {""},
-                        if(!is.na(LastName3)) {FirstName3} else {""},
-                        if(!is.na(LastName4)) {" and "} else {""},
-                        if(!is.na(LastName4)) {LastName4} else {""},
-                        if(!is.na(LastName4)) {", "} else {""},
-                        if(!is.na(LastName4)) {FirstName4} else {""},
-                        " \\newline ",
-                        if(!is.na(ChildName1)) {ChildName1} else {""},
-                        if(!is.na(ChildName1)) {", Born "} else {""},
-                        if(!is.na(ChildName1)) {ChildYearBorn1} else {""},
-                        if(!is.na(ChildName1)) {"; "} else {""},
-                        if(!is.na(ChildName2)) {ChildName2} else {""},
-                        if(!is.na(ChildName2)) {", Born "} else {""},
-                        if(!is.na(ChildName2)) {ChildYearBorn2} else {""},
-                        if(!is.na(ChildName2)) {"; "} else {""},
-                        if(!is.na(ChildName3)) {ChildNameBorn3} else {""},
-                        if(!is.na(ChildName3)) {", Born "} else {""},
-                        if(!is.na(ChildName3)) {ChildYearBorn3} else {""},
-                        if(!is.na(ChildName3)) {"; "} else {""},
-                        if(!is.na(ChildName4)) {ChildName4} else {""},
-                        if(!is.na(ChildName4)) {", Born "} else {""},
-                        if(!is.na(ChildName4)) {ChildYear4} else {""},
-                        if(!is.na(ChildName4)) {"; "} else {""},
-                        if(!is.na(ChildName5)) {ChildName5} else {""},
-                        if(!is.na(ChildName5)) {", Born "} else {""},
-                        if(!is.na(ChildName5)) {ChildYearBorn5} else {""},
-                        if(!is.na(ChildName5)) {"; "} else {""},
-                        if(!is.na(ChildName6)) {ChildName6} else {""},
-                        if(!is.na(ChildName6)) {", Born "} else {""},
-                        if(!is.na(ChildName6)) {ChildYearBorn6} else {""},
-                        if(!is.na(ChildName6)) {"; "} else {""},
-                        " \\newline ",
-                        "Home Phone: ",
-                        HomePhone,
-                        " \\newline ",
-                        if(!is.na(CellPhone1)) {"Cell Phone 1: "} else {""},
-                        if(!is.na(CellPhone1)) {CellPhone1} else {""},
-                        if(!is.na(CellPhone1)) {" \\newline "} else {""},
-                        if(!is.na(CellPhone2)) {"Cell Phone 2: "} else {""},
-                        if(!is.na(CellPhone2)) {CellPhone2} else {""},
-                        if(!is.na(CellPhone2)) {" \\newline "} else {""},
-                        if(!is.na(Email1)) {"Email 1: "} else {""},
-                        if(!is.na(Email1)) {Email1} else {""},
-                        if(!is.na(Email1)) {" \\newline "} else {""},
-                        if(!is.na(Email2)) {"Email 2: "} else {""},
-                        if(!is.na(Email2)) {Email2} else {""},
-                        if(!is.na(Email2)) {" \\newline "} else {""}
+                        ": ", 
+                        if(LastName1 == LastName2) {LastName1} else 
+                                {paste0(LastName1, " / ", LastName2)}
                 ))
                 directoryEntries[i] <- x
         }
         return(directoryEntries)
 }
+
+makeLetterStarts <- function(directoryFrame=directoryFrame, sortedNamesFrameAll = sortedNamesFrameAll) {
+        letterStarts <- rep(NULL, times=nrow(sortedNamesFrameAll))
+        letterStarts[1] <- substr(sortedNamesFrameAll$lastName[1],1,1)
+        for(i in 2:nrow(sortedNamesFrameAll)) {
+                a <- substr(sortedNamesFrameAll$lastName[i],1,1)
+                b <- substr(sortedNamesFrameAll$lastName[i-1],1,1)
+                if((a != b) && (!is.na(a)) && (!is.na(b)) && (!is.null(a)) && (!is.null(b))) {letterStarts[i] <- a}
+        }
+        return(letterStarts)
+}
+
+makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFrame) {
+        directoryEntries <- vector(length = nrow(sortedNamesFrameAll))
+        for(i in 1:nrow(sortedNamesFrameAll)) {
+                if(sortedNamesFrameAll$Full[i]==TRUE) {
+                x <- with(dataFrame[sortedNamesFrameAll$Index[i],], paste0(
+                        if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i]))) {
+                        paste0(" \\textbf{\\uppercase{\\LARGE{",as.character(sortedNamesFrameAll$letterStarts[i]),"}}} \\newline \\newline")
+                        },
+                        " \\textbf{",
+                        LastName1,
+                        ", ",
+                        FirstName1,
+                        if(isNotNullNAEmpty(LastName2)) {
+                                if(LastName1 == LastName2) {
+                                        paste0(" and ", FirstName2)
+                                } else {paste0(" and ", FirstName2, " ", LastName2)}
+                        } else {""},
+                        "} ",
+                        " \\newline ",
+                        StreetNumber,
+                        " ",
+                        StreetName,
+                        " \\newline ",
+                        "Home Phone: ",
+                        HomePhone,
+                        " \\newline ",
+                        if(isNotNullNAEmpty(HomeEmail)) {paste0("Home Email: ", HomeEmail, " \\newline ")} else {""},
+        if(isNotNullNAEmpty(CellPhone1) | isNotNullNAEmpty(Email1)) 
+                {paste0(FirstName1, ": ", 
+                        if(isNotNullNAEmpty(CellPhone1)) {paste0(CellPhone1, ", ")}, 
+                        if(isNotNullNAEmpty(Email1)) {Email1}, " \\newline ")} else {""},
+        if(isNotNullNAEmpty(CellPhone2) | isNotNullNAEmpty(Email2)) 
+                {paste0(FirstName2, ": ",
+                        if(isNotNullNAEmpty(CellPhone2)) {paste0(CellPhone2, ", ")}, 
+                        if(isNotNullNAEmpty(Email2)) {Email2}, " \\newline ")} else {""},
+                        if(isNotNullNAEmpty(ChildName1)) {paste0("Children: ", ChildName1, ", born ", ChildYearBorn1)} else {""},
+                        if(isNotNullNAEmpty(ChildName2)) {paste0("; ", ChildName2, ", born ", ChildYearBorn2)} else {""},
+                        if(isNotNullNAEmpty(ChildName3)) {paste0("; ", ChildName3, ", born ", ChildYearBorn3)} else {""},
+                        if(isNotNullNAEmpty(ChildName4)) {paste0("; ", ChildName4, ", born ", ChildYearBorn4)} else {""},
+                        if(isNotNullNAEmpty(ChildName5)) {paste0("; ", ChildName5, ", born ", ChildYearBorn5)} else {""},
+                        if(isNotNullNAEmpty(ChildName6)) {paste0("; ", ChildName6, ", born ", ChildYearBorn6)} else {""},
+                        if(isNotNullNAEmpty(LastName3)) {paste0(" \\newline Also Residing: ", FirstName3, " ", LastName3)} else {""},
+                        if(isNotNullNAEmpty(LastName4)) {paste0(", ", FirstName4, " ", LastName4)} else {""}
+                ))} else {x <- with(dataFrame[sortedNamesFrameAll$Index[i],], paste0(
+                                " \\textbf{",
+                                sortedNamesFrameAll$lastName[i],
+                                ", ",
+                                sortedNamesFrameAll$firstName[i],
+                                ", see ",
+                                LastName1,
+                                ", ",
+                                FirstName1,
+                                " } ",
+                                if(i>2) {if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i-1]))) {" \\newline \\newline "}}
+                        ))}
+                        directoryEntries[i] <- x
+        }
+        return(directoryEntries)
+}
+
 
 
