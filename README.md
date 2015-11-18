@@ -11,6 +11,11 @@ You will need a Google spreadsheet with the following columns:
 [21] "StreetNumber"   "StreetName"     "HomePhone"      "CellPhone1"     "CellPhone2"    
 [26] "Email1"         "Email2" 
 
-Of course, this can be customized.
+Of course, this can be customized. I would kindly ask that if you do a pull request, you add fields and not subtract them, and handle them appropriately as additions in the code, and do not rename fields.
+
+To access the spreadsheet, you'll need the public share address. To keep privacy, this is stored in a text file in the same directory called `sheetLocation`. Just store this as plain text.
+
+You will also need to have Pandoc installed on your computer to run PDFs via LaTeX.
+
 
 To run, just hit "knit" from Rstudio on the Rmd.
