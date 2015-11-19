@@ -10,6 +10,7 @@ latex: TRUE
 header-includes:
    - \usepackage{multicol}
    - \usepackage{fancyhdr}
+   - \usepackage{color}
  
 
 ---

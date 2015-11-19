@@ -1,3 +1,5 @@
+
+
 isNotNullNAEmpty <- function(x) {(!is.null(x) && !is.na(x) && (nchar(x)>0))}
 
 getDirectory <- function(googleAddress) {
@@ -5,16 +7,17 @@ getDirectory <- function(googleAddress) {
         dataFrame <- gsheet2tbl(googleAddress)
         return(dataFrame)
 }
-
 uniqueLast <- function(directoryData, lastNameCols, firstNameCols) {
          sortedNamesFrame <- data.frame(lastName=NA, firstName=NA, Index=NA, Full=NA, useInIndex = NA)
         for(i in 1:nrow(directoryData)) {
-                if(length(unique(na.omit(as.vector(t(directoryData[i,colnames(directoryData)%in%lastNameCols])))))>1) {
+                x<- as.vector(t(directoryData[i,colnames(directoryData)%in%lastNameCols]))
+                x<- x[which(sapply(x, nchar)>0)]
+                if(length(unique(na.omit(x)))>1) {
        x <- unique(na.omit(as.vector(t(directoryData[i,colnames(directoryData)%in%lastNameCols]))))
                 y <- unique(na.omit(as.vector(t(directoryData[i,colnames(directoryData)%in%firstNameCols]))))
                 insert <- data.frame(lastName=x, firstName=y)
                 insert <- cbind(insert, data.frame(Index=rep(i,times = nrow(insert)), Full=c(TRUE, rep(FALSE, times=(nrow(insert)-1))), useInIndex = c(FALSE, rep(TRUE, times=(nrow(insert)-1)))))
-                } else if(length(unique(na.omit(as.vector(t(directoryData[i,colnames(directoryData)%in%lastNameCols])))))==1) {
+                } else {
                         insert <- data.frame(lastName=directoryData$LastName1[i], firstName=directoryData$FirstName1[i], Index=i, Full=TRUE, useInIndex=FALSE)
                 }
                 sortedNamesFrame <- rbind(sortedNamesFrame, insert)
@@ -75,7 +78,7 @@ makeStreetEntries <- function(streetFrame) {
                         },
                         StreetNumber,
                         ": ", 
-                        if(LastName1 == LastName2) {LastName1} else 
+                        if(LastName1 == LastName2 | !isNotNullNAEmpty(LastName2)) {LastName1} else 
                                 {paste0(LastName1, " / ", LastName2)}
                 ))
                 directoryEntries[i] <- x
@@ -100,7 +103,7 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
                 if(sortedNamesFrameAll$Full[i]==TRUE) {
                 x <- with(dataFrame[sortedNamesFrameAll$Index[i],], paste0(
                         if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i]))) {
-                        paste0(" \\textbf{\\uppercase{\\LARGE{",as.character(sortedNamesFrameAll$letterStarts[i]),"}}} \\newline \\newline")
+                        paste0(" \\textcolor{white}{---} \\newline \\textbf{\\uppercase{\\LARGE{",as.character(sortedNamesFrameAll$letterStarts[i]),"}}} \\newline \\newline")
                         },
                         " \\textbf{",
                         LastName1,
@@ -117,9 +120,10 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
                         " ",
                         StreetName,
                         " \\newline ",
+                        if(isNotNullNAEmpty(HomePhone)) {paste0(
                         "Home Phone: ",
                         HomePhone,
-                        " \\newline ",
+                        " \\newline ")} else {""},
                         if(isNotNullNAEmpty(HomeEmail)) {paste0("Home Email: ", HomeEmail, " \\newline ")} else {""},
         if(isNotNullNAEmpty(CellPhone1) | isNotNullNAEmpty(Email1)) 
                 {paste0(FirstName1, ": ", 
@@ -147,12 +151,12 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
                                 ", ",
                                 FirstName1,
                                 " } ",
-                                if(i>2) {if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i-1]))) {" \\newline \\newline "}}
+                                if(i>2) {if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i-1]))) {" \\newline "}}
                         ))}
                         directoryEntries[i] <- x
         }
         return(directoryEntries)
 }
 
-
+getRightColumns <- function(origCols=lastNameCols, dataFrame=directoryData, i=i) {which(colnames(dataFrame)%in%origCols)[sapply(dataFrame[i,colnames(dataFrame)%in%origCols], isNotNullNAEmpty)]}
 
