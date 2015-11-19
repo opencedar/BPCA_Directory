@@ -140,8 +140,12 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
                         if(isNotNullNAEmpty(ChildName5)) {paste0("; ", ChildName5, ", born ", ChildYearBorn5)} else {""},
                         if(isNotNullNAEmpty(ChildName6)) {paste0("; ", ChildName6, ", born ", ChildYearBorn6)} else {""},
                         if(isNotNullNAEmpty(LastName3)) {paste0(" \\newline Also Residing: ", FirstName3, " ", LastName3)} else {""},
-                        if(isNotNullNAEmpty(LastName4)) {paste0(", ", FirstName4, " ", LastName4)} else {""}
+                        if(isNotNullNAEmpty(LastName4)) {paste0(", ", FirstName4, " ", LastName4)} else {""},
+                        if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i+1]))) {" \\newline "}
                 ))} else {x <- with(dataFrame[sortedNamesFrameAll$Index[i],], paste0(
+                        if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i]))) {
+                                paste0(" \\textcolor{white}{---} \\newline \\textbf{\\uppercase{\\LARGE{",as.character(sortedNamesFrameAll$letterStarts[i]),"}}} \\newline \\newline")
+                        },
                                 " \\textbf{",
                                 sortedNamesFrameAll$lastName[i],
                                 ", ",
@@ -151,7 +155,7 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
                                 ", ",
                                 FirstName1,
                                 " } ",
-                                if(i>2) {if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i-1]))) {" \\newline "}}
+                                if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i+1]))) {" \\newline "}
                         ))}
                         directoryEntries[i] <- x
         }
