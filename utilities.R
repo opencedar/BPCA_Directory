@@ -12,9 +12,12 @@ uniqueLast <- function(directoryData, lastNameCols, firstNameCols) {
         for(i in 1:nrow(directoryData)) {
                 x<- as.vector(t(directoryData[i,colnames(directoryData)%in%lastNameCols]))
                 x<- x[which(sapply(x, nchar)>0)]
-                if(length(unique(na.omit(x)))>1) {
+                if(length(unique(na.omit(x)))>1)
+                        {
        x <- unique(na.omit(as.vector(t(directoryData[i,colnames(directoryData)%in%lastNameCols]))))
+       x <- x[sapply(x, isNotNullNAEmpty)]
                 y <- unique(na.omit(as.vector(t(directoryData[i,colnames(directoryData)%in%firstNameCols]))))
+                y <- y[sapply(y, isNotNullNAEmpty)]
                 insert <- data.frame(lastName=x, firstName=y)
                 insert <- cbind(insert, data.frame(Index=rep(i,times = nrow(insert)), Full=c(TRUE, rep(FALSE, times=(nrow(insert)-1))), useInIndex = c(FALSE, rep(TRUE, times=(nrow(insert)-1)))))
                 } else {
@@ -78,6 +81,7 @@ makeStreetEntries <- function(streetFrame) {
                         },
                         StreetNumber,
                         ": ", 
+                        if(isNotNullNAEmpty(VacantForSale)) {paste0("")} else
                         if(LastName1 == LastName2 | !isNotNullNAEmpty(LastName2)) {LastName1} else 
                                 {paste0(LastName1, " / ", LastName2)}
                 ))
@@ -87,7 +91,7 @@ makeStreetEntries <- function(streetFrame) {
 }
 
 makeLetterStarts <- function(directoryFrame=directoryFrame, sortedNamesFrameAll = sortedNamesFrameAll) {
-        letterStarts <- rep(NULL, times=nrow(sortedNamesFrameAll))
+        letterStarts <-  vector(mode="character", length=nrow(sortedNamesFrameAll))
         letterStarts[1] <- substr(sortedNamesFrameAll$lastName[1],1,1)
         for(i in 2:nrow(sortedNamesFrameAll)) {
                 a <- substr(sortedNamesFrameAll$lastName[i],1,1)
@@ -116,6 +120,8 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
                         } else {""},
                         "} ",
                         " \\newline ",
+                        if(isNotNullNAEmpty(BusinessName)) {paste0(" \\textit{", BusinessName, " } \\newline ")} else {""},
+                        if(isNotNullNAEmpty(Absentee)) {paste0(" \\textit{Not Currently Residing at this Property} \\newline ")} else {""},
                         StreetNumber,
                         " ",
                         StreetName,
@@ -133,12 +139,12 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
                 {paste0(FirstName2, ": ",
                         if(isNotNullNAEmpty(CellPhone2)) {paste0(CellPhone2, ", ")}, 
                         if(isNotNullNAEmpty(Email2)) {Email2}, " \\newline ")} else {""},
-                        if(isNotNullNAEmpty(ChildName1)) {paste0("Children: ", ChildName1, ", born ", ChildYearBorn1)} else {""},
-                        if(isNotNullNAEmpty(ChildName2)) {paste0("; ", ChildName2, ", born ", ChildYearBorn2)} else {""},
-                        if(isNotNullNAEmpty(ChildName3)) {paste0("; ", ChildName3, ", born ", ChildYearBorn3)} else {""},
-                        if(isNotNullNAEmpty(ChildName4)) {paste0("; ", ChildName4, ", born ", ChildYearBorn4)} else {""},
-                        if(isNotNullNAEmpty(ChildName5)) {paste0("; ", ChildName5, ", born ", ChildYearBorn5)} else {""},
-                        if(isNotNullNAEmpty(ChildName6)) {paste0("; ", ChildName6, ", born ", ChildYearBorn6)} else {""},
+                        if(isNotNullNAEmpty(ChildName1)) {paste0("Children: ", ChildName1, if(isNotNullNAEmpty(ChildYearBorn1)) {paste0(" (", ChildYearBorn1, ")")})} else {""},
+                        if(isNotNullNAEmpty(ChildName2)) {paste0("; ", ChildName2, if(isNotNullNAEmpty(ChildYearBorn2)) {paste0(" (", ChildYearBorn2, ")")})} else {""},
+                        if(isNotNullNAEmpty(ChildName3)) {paste0("; ", ChildName3, if(isNotNullNAEmpty(ChildYearBorn3)) {paste0(" (", ChildYearBorn3, ")")})} else {""},
+                        if(isNotNullNAEmpty(ChildName4)) {paste0("; ", ChildName4, if(isNotNullNAEmpty(ChildYearBorn4)) {paste0(" (", ChildYearBorn4, ")")})} else {""},
+                        if(isNotNullNAEmpty(ChildName5)) {paste0("; ", ChildName5, if(isNotNullNAEmpty(ChildYearBorn5)) {paste0(" (", ChildYearBorn5, ")")})} else {""},
+                        if(isNotNullNAEmpty(ChildName6)) {paste0("; ", ChildName6, if(isNotNullNAEmpty(ChildYearBorn6)) {paste0(" (", ChildYearBorn6, ")")})} else {""},
                         if(isNotNullNAEmpty(LastName3)) {paste0(" \\newline Also Residing: ", FirstName3, " ", LastName3)} else {""},
                         if(isNotNullNAEmpty(LastName4)) {paste0(", ", FirstName4, " ", LastName4)} else {""},
                         if(isNotNullNAEmpty(as.character(sortedNamesFrameAll$letterStarts[i+1]))) {" \\newline "}
@@ -164,3 +170,38 @@ makeDirectoryEntriesAll <- function(sortedNamesFrameAll, dataFrame=directoryFram
 
 getRightColumns <- function(origCols=lastNameCols, dataFrame=directoryData, i=i) {which(colnames(dataFrame)%in%origCols)[sapply(dataFrame[i,colnames(dataFrame)%in%origCols], isNotNullNAEmpty)]}
 
+getBusinessEntry <- function(directoryFrame =directoryFrame) {
+        businessIndex <- data.frame(index = NULL, businessName = NULL, businessNumber = NULL, businessStreet = NULL)
+        for(i in 1:length(which(sapply(directoryFrame$BusinessName, isNotNullNAEmpty)))) {
+                index <- which(sapply(directoryFrame$BusinessName, isNotNullNAEmpty))[i]
+                businessName<- directoryFrame$BusinessName[index]
+                businessNumber <- directoryFrame$StreetNumber[index]
+                businessStreet <- directoryFrame$StreetName[index]
+                addedRow <- c(index, businessName, businessNumber, businessStreet)
+                businessIndex <- rbind(businessIndex, addedRow)
+        }
+        colnames(businessIndex) <- c("index", "businessName", "businessNumber", "businessStreet")
+        return(businessIndex)
+}
+
+makeBusinessDirectory <- function(businessEntries = businessEntries, directoryFrame = directoryFrame) {
+        businessDirectory <- vector(length = nrow(businessEntries))
+        for(i in 1:nrow(businessEntries)) {
+                row <- as.numeric(as.character(businessEntries$index[i]))
+                x <- paste0(
+                        " \\textbf{",
+                        businessEntries$businessName[i],
+                        "} \\newline ",
+                        businessEntries$businessNumber[i],
+                        " ",
+                        businessEntries$businessStreet[i],
+                        " \\newline See ",
+                        directoryFrame[row,]$LastName1,
+                        ", ",
+                        directoryFrame[row,]$FirstName1,
+                        " \\newline "
+                )
+                businessDirectory[i] <- x
+        }
+        return(businessDirectory)
+}

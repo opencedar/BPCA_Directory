@@ -1,5 +1,5 @@
 *.Rproj
-.pdf
+*.pdf
 *Directory_cache/
 .csv
 .RData

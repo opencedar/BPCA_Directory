@@ -13,9 +13,14 @@ sortedNamesFrameAll <- uniqueLast(directoryFrame, lastNameCols, firstNameCols)
 sortedNamesFrameFull <- fullVectors(sortedNamesFrameAll)
 sortedNamesFrameIndex <- sortedNamesFrameAll[sortedNamesFrameAll$useInIndex==TRUE,]
 directoryEntriesIndex <- makeLastNameIndex(sortedNamesFrameIndex, directoryFrame)
+businessEntries <- getBusinessEntry(directoryFrame)
+businessDirectory <- makeBusinessDirectory(businessEntries, directoryFrame)
 streetFrame <- makeStreetFrame(directoryFrame)
 streetFrame <- makeStreetStarts(streetFrame)
 streetEntries <- makeStreetEntries(streetFrame)
 letterStarts <- makeLetterStarts(directoryFrame, sortedNamesFrameAll)
 sortedNamesFrameAll <- cbind(sortedNamesFrameAll, letterStarts)
+x <- which(sapply(directoryFrame$VacantForSale, isNotNullNAEmpty))
+sortedNamesFrameAll <- sortedNamesFrameAll[!(sortedNamesFrameAll$Index %in% x),]
 directoryEntriesAll <- makeDirectoryEntriesAll(sortedNamesFrameAll, dataFrame=directoryFrame)
+
