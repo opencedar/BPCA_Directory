@@ -262,6 +262,8 @@ To remove all doubt, members should treat the Community House as well as, or bet
 
 ##Application for Community House Usage
 
+Note: Please send information in the below application to bpca.reservations@gmail.com; it doesn't have to be in this precise format.
+
 \begin{doublespacing}
 \begin{tabular} {l l l}
 Name of Applicant(s): & \underline{\hspace{7cm}} \\
@@ -331,21 +333,12 @@ Revised: January 30th, 2013
 
 \section{Parking}
 
-Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must display County-issued parking permits (except for most of Exeter Road, on which parking is not permitted, even for residents, Monday-Friday, 9:00-5:00).  Please note that parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
+Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must be in the County RPP (Residential Parking Permit) database. Cars may not park on most of Exeter Road on Monday-Friday, from 9:00-5:00. Please note that residents of Exeter Road are attempting to add their street to the RPP program as this Directory is being printed.  Parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
 
-Two-year Residential Permits:  Battery Park residents may purchase a permit for each car registered to their respective Battery Park addresses.  These permits are valid for two-years.  The cost is $20.00 each for the two-year period.  For permits purchased after the effective date, however, the cost is pro-rated for six-month intervals.  Applications for the permits require proof of residence within Battery Park, a copy of the Maryland registration certificate for each car (showing the owner’s Battery Park address, the year, make and model of each car, and each car’s Maryland tag number and vehicle serial number).
+Guest permits: Currently, guest permits must be renewed weekly, tied to a specific license plate. These are free of charge, and are tied to the household.
 
-Guest permits:  In addition to the residential permit described above, each household may purchase one guest permit which is valid for the same term as the regular residential permit.   The fee for the guest permit is also $20.00, pro-rated on the same basis as the residential permit when purchased after the start of the two-year period.
+Residents can obtain parking permits at https://montgomerycounty.digitalpermits.com/
 
-Renewals:  Applications for renewal are mailed to current permit holders by the County toward the end of each two-year period.
-
-Temporary/Visitor Permits:  For parties, house guests, tradespeople, new residents, etc., permits for up to 30 days may be obtained at no charge.  Be prepared to show proof of residence in Battery Park, such as tax or utility bills.
-
-Beginning June 5th, 2015, Montgomery County RPP neighborhood residents who need to renew their RPP permits can do so online. In lieu of mailing your renewal forms, the new program will enable RPP residents to apply online and process the permit access within minutes. RPP residents will no longer be required to place sticker decals on their vehicles; instead the new system will use license plate numbers to determine if vehicles have permission to park in the RPP area.
-
-Residents can renew parking permits at https://montgomerycounty.digitalpermits.com/
-
-Battery Park Residential Parking permits are granted only to residential properties located within Battery Park.  Once obtained, it is a violation of the Montgomery County Parking Regulations to transfer any valid Residential, Guest, or Temporary/Visitor Parking Permit to any employee of a commercial property within Battery Park, or to a friend or relative wishing to park in our neighborhood to walk to Metro or to be closer to their workplace.
 
 \begin{LARGE}
 \section{Frequently Used Numbers}
@@ -358,22 +351,23 @@ Fire-Rescue, Non-emergency: & 240-777-2400 \\
 Police, Non-emergency: & 301-279-8000 \\
 Maryland State Police: & 301-424-2101 \\
 Bethesda Police Station: & 301-652-9200 & 7359 Wisconsin Avenue \\
-PEPCO: & 202-833-7500 \\
-Washington Gas: & 703-750-1000 \\
-Washington Suburban Sanitary Commission: & 301-699-4555 \\
-Montgomery County Solid Waste Services: & 240-777-6400 \\
-Montgomery County Government: & 240-777-1000 \\
-Montgomery County Council & 240-444-7900 \\
-Montgomery County Executive: & 240-777-2500 \\
-Department of Permitting Services: & 240-777-6200 \\
-Zoning Information/Enforcement: & 240-777-6240 \\
-Montgomery County Public Schools: & 301-279-3000 \\
-Montgomery County Board of Elections: & 301-279-3617 \\
-BCC Regional Services: & 240-777-8200 & 4805 Edgemoor Lane \\
+PEPCO: & 202-833-7500 & www.pepco.com/\\
+Washington Gas: & 703-750-1000 & www.washingtongas.com/ \\
+Washington Suburban Sanitary Commission: & 301-699-4555 & www.wsscwater.com \\
+Montgomery County 311: & 311 & www.montgomerycountymd.gov/mc311/ \\
+MC Solid Waste Services: & 240-777-6400 & www.montgomerycountymd.gov/sws/ \\
+MC Government: & 240-777-1000 & www.montgomerycountymd.gov \\ 
+County Council & 240-444-7900 & www.montgomerycountymd.gov/council/ \\
+County Executive: & 240-777-2500 & www.montgomerycountymd.gov/exec/ \\
+Permitting Services: & 240-777-6200 & permittingservices.montgomerycountymd.gov\\
+Zoning: & 240-777-6240 & mcatlas.org/zoning/ \\
+Montgomery County Public Schools: & 301-279-3000 & www.montgomeryschoolsmd.org/ \\
+Board of Elections: & 301-279-3617 & www.montgomerycountymd.gov/elections \\
+BCC Regional Services Center: & 240-777-8200 & www.montgomerycountymd.gov/bcc/\\
 Bethesda Regional Library & 301-986-4300 & 7400 Arlington Road \\
-Residential Parking Permits & https://montgomerycounty.digitalpermits.com \\
+Residential Parking Permits & montgomerycounty.digitalpermits.com \\
 Transit Information & 240-777-RIDE \\
-METRO Information: & 202-637-7000 \\
+METRO Information: & 202-637-7000 & www.wmata.com/ \\
 \end{tabu}
 
 \pagebreak
@@ -516,7 +510,7 @@ A proposed amendment must be presented to the Governing Board by one of its memb
 
 \begin{tabular}{l l l l}
 President & Mary Jane Reese & 240-793-1134 & reesemaryjane@gmail.com  \\
-Vice President & Alyssa Rivkin & xxx-xxx-xxxxx & xx@xx.com \\
+Vice President & Alisa Rivkin & 917-533-8297 & adrivkin@yahoo.com \\
 Secretary & Adam Ducker & 301-802-9142 & aducker@rclco.comm \\
 Treasurer & Sabine Kolbeck & 301-656-1036 & skolbeck@yahoo.com \\
 Legal Counsel & Nancy Grunberg & 301-986-5520 & grunbergs@aol.com \\
