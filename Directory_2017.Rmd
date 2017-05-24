@@ -18,10 +18,11 @@ header-includes:
    - \usepackage{tabu}
    - \usepackage{geometry}
    - \geometry{letterpaper, portrait, margin=1in}
-   - \usepackage{hyperref}
    - \usepackage{xcolor}
    - \usepackage{setspace}
    - \usepackage{afterpage}
+   - \usepackage{hyperref}
+   - \usepackage{bookmark}
  
 
 ---
@@ -68,12 +69,69 @@ pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=b
 
 \tableofcontents
 
+\pagebreak
+\cleardoublepage\phantomsection
+\section{Battery Park Citizen's Association 2017-2018 Board}
+
+
+##Officers
+
+\begin{tabular}{l l l l}
+President & Mary Jane Reese & 240-793-1134 & batteryparkpresident@gmail.com  \\
+Vice President & Alisa Rivkin & 917-533-8297 & adrivkin@yahoo.com \\
+Secretary & Adam Ducker & 301-802-9142 & aducker@rclco.comm \\
+Treasurer & Sabine Kolbeck & 301-656-1036 & skolbeck@yahoo.com \\
+Legal Counsel & Nancy Grunberg & 301-986-5520 & grunbergs@aol.com \\
+Past President & Andy Hasselwander & 301-908-7162 & ahasselwander@gmail.com \\
+\end{tabular}
+
+##Directors
+\begin{tabular}{l l l}
+Paul Brown & 301-652-5940 & paulwbrown@comcast.net \\
+Mika Ikeda & 917-386-4275 & mika.ikeda@gmail.com \\
+Bryce Vermillion & 202-569-6886 & bryce.vermillion@cbre.com \\
+George Schreiber & 301-652-2252 & epidemiologyman@gmail.com \\
+
+\end{tabular}
+
+##Members-at-Large
+\begin{tabular}{l l l}
+Erin Auerbach & 301-758-2347 & erin.bondo@gmail.com \\
+Paul Brown & 301-652-5940 & paulwbrown@comcast.net \\
+Alicia Delahunty & 240-426-5584 & alicia@valuablelessons.com \\
+Anna Fierst & 301-792-2338 & aefierst@gmail.com \\
+Josh Groman & 301-648-7693 & jdgroman@gmail.com \\
+Rosa Honarpishah & 301-655-2040 & rosa.honarpisheh@gmail.com \\
+Jen King & 301-656-3129 & jlk6k@hotmail.com \\
+Marjorie Perloff & 240-731-1772 & Perloffm@mail.nih.gov \\
+Fuad Sahouri & 703-395-4625 & fuadjr@sahouri.com  \\
+Frans Van Wagenberg & 301-951-0971 & vangwagenb@aol.com \\
+
+
+\end{tabular}
+
+##Standing Committee Chairs
+\begin{itemize}
+\item House: Bryce Vermillion
+\item Tennis: Paul Brown
+\item Grounds: Josh Groman
+\item Zoning and Land Use: Anna Fierst and Alicia Delahunty
+\item Social: Mika Ikeda and George Schreiber
+\end{itemize}
+
+##Community House Caretaker / Reservations
+
+Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630. The Community House is located at 7908 Glenbrook Road.
+
+\pagebreak
+\cleardoublepage\phantomsection
 #Community Map
 \includegraphics[width=1.0\textwidth]{CommunityMap.png}\par\vspace{1cm}
 \vfill
 
 \pagebreak
 
+\cleardoublepage\phantomsection
 \section{About Battery Park}
 
 Battery Park Citizens’ Association, Incorporated is a non-profit corporation, chartered in 1927 in the State of Maryland.  Membership is comprised of residents and property owners in the subdivision known as Battery Park, bordered by Wilson Lane, Old Georgetown Road and Maple Ridge Road.
@@ -120,8 +178,7 @@ Construction was not typical of the mass-produced housing of today.  Foundations
 There were only small, newly planted trees, and, in one person’s recollection, Battery Park looked stark. School was at Bethesda Elementary and the B-CC High School on Leland Street, until the first of the new high school buildings on East-West Highway opened in September 1937. As is today, there was an annual 4th of July parade at the Clubhouse with bunting-decorated bicycles and, from the early 1930s, there were the perennial problems of “unnecessary” sirens from the fire trucks, how to get more people to attend the Association’s meetings, and debates concerning how best to manage the community's grounds.
 
 \pagebreak
-
-
+\cleardoublepage\phantomsection
 \section{The Community House}
 
 ##House Rules
@@ -306,7 +363,7 @@ Name & Date \\
 Revised: January 30th, 2013
 
 \pagebreak
-
+\cleardoublepage\phantomsection
 \section{Tennis Courts}
 
 
@@ -330,7 +387,7 @@ Revised: January 30th, 2013
 \end{enumerate}
 
 \pagebreak
-
+\cleardoublepage\phantomsection
 \section{Parking}
 
 Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must be in the County RPP (Residential Parking Permit) database. Cars may not park on most of Exeter Road on Monday-Friday, from 9:00-5:00. Please note that residents of Exeter Road are attempting to add their street to the RPP program as this Directory is being printed.  Parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
@@ -341,6 +398,7 @@ Residents can obtain parking permits at https://montgomerycounty.digitalpermits.
 
 
 \begin{LARGE}
+\cleardoublepage\phantomsection
 \section{Frequently Used Numbers}
 \end{LARGE}     
 
@@ -375,6 +433,7 @@ METRO Information: & 202-637-7000 & www.wmata.com/ \\
 
 
 \begin{LARGE}
+\cleardoublepage\phantomsection
 \section{Battery Park Citizens' Association By-Laws}
 \end{LARGE}
 
@@ -503,62 +562,7 @@ A proposed amendment must be presented to the Governing Board by one of its memb
 
 \pagebreak
 
-\section{Battery Park Citizen's Association 2017-2018 Board}
-
-
-##Officers
-
-\begin{tabular}{l l l l}
-President & Mary Jane Reese & 240-793-1134 & reesemaryjane@gmail.com  \\
-Vice President & Alisa Rivkin & 917-533-8297 & adrivkin@yahoo.com \\
-Secretary & Adam Ducker & 301-802-9142 & aducker@rclco.comm \\
-Treasurer & Sabine Kolbeck & 301-656-1036 & skolbeck@yahoo.com \\
-Legal Counsel & Nancy Grunberg & 301-986-5520 & grunbergs@aol.com \\
-Past President & Andy Hasselwander & 301-908-7162 & ahasselwander@gmail.com \\
-\end{tabular}
-
-##Directors
-\begin{tabular}{l l l}
-Paul Brown & 301-652-5940 & paulwbrown@comcast.net \\
-Mike Ikeda & 917-386-4275 & mika.ikeda@gmail.com \\
-Bryce Vermillion & 202-569-6886 & bryce.vermillion@cbre.com \\
-George Schreiber & 301-652-2252 & epidemiologyman@gmail.com \\
-
-\end{tabular}
-
-##Members-at-Large
-\begin{tabular}{l l l}
-Erin Auerbach & 301-758-2347 & erin.bondo@gmail.com \\
-Paul Brown & 301-652-5940 & paulwbrown@comcast.net \\
-Alicia Delahunty & 240-426-5584 & alicia@valuablelessons.com \\
-Anna Fierst & 301-792-2338 & aefierst@gmail.com \\
-Josh Groman & 301-648-7693 & jdgroman@gmail.com \\
-Rosa Honarpishah & 301-655-2040 & rosa.honarpisheh@gmail.com \\
-Jen King & 301-656-3129 & jlk6k@hotmail.com \\
-Marjorie Perloff & 240-731-1772 & perloff@mail.nih.gov \\
-Fuad Sahouri & 703-395-4625 & fuadjr@sahouri.com  \\
-Frans Van Wagenberg & 301-951-0971 & vangwagenb@aol.com \\
-
-
-\end{tabular}
-
-##Standing Committee Chairs
-\begin{itemize}
-\item House: Bryce Vermillion
-\item Tennis: Paul Brown
-\item Grounds: Josh Groman
-\item Zoning and Land Use: Anna Fierst and Alicia Delahunty
-\item Social: Mika Ikeda and George Schreiber
-\end{itemize}
-
-##Community House Caretaker / Reservations
-
-Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630. The Community House is located at 7908 Glenbrook Road.
-
-\pagebreak
-
-
-
+\cleardoublepage\phantomsection
 \section{Alphabetical List of Battery Park Residents by Last Name}
 \begin{multicols}{2}
 
@@ -578,7 +582,7 @@ for(i in 1:length(directoryEntriesAll)){
 
 \pagebreak
 
-
+\cleardoublepage\phantomsection
 \section{Street Name Index}
 
 \begin{multicols}{3}
