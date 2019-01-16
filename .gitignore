@@ -7,3 +7,7 @@
 .Rhistory
 .Rproj.user
 sheetLocation
+*.tex
+*.log
+*.gz
+*.toc
