@@ -1,0 +1,605 @@
+---
+title: "Battery Park Community Directory"
+output:
+    pdf_document:
+        pandoc_args: [
+       "--from=markdown+raw_tex"
+    ]
+        template: notitle.tex
+latex: TRUE
+header-includes:
+   - \usepackage{multicol}
+   - \usepackage{fancyhdr}
+   - \usepackage{color}
+   - \usepackage{underscore}
+   - \usepackage[english]{babel}
+   - \usepackage{titlesec}
+   - \usepackage{graphicx}
+   - \usepackage{tabu}
+   - \usepackage{geometry}
+   - \geometry{letterpaper, portrait, margin=1in}
+   - \usepackage{xcolor}
+   - \usepackage{setspace}
+   - \usepackage{afterpage}
+   - \usepackage{hyperref}
+   - \usepackage{bookmark}
+ 
+
+---
+  
+\pagestyle{fancy}
+\fontsize{11}{14}
+\fontfamily{pbk}
+\titleformat*{\section}{\Huge\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+\hypersetup{% 
+pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=blue, urlcolor=cyan!50!black!90}
+
+\begin{titlepage}
+  \centering
+  {\Huge\bfseries Battery Park Community Directory\par}
+  \vspace{2cm}
+  {\huge\itshape 2023-2024\par}
+  \vspace{1cm}
+  \includegraphics[width=0.9\textwidth]{Welcome.png}\par\vspace{2cm}
+  \vfill
+
+% Bottom of the page
+
+  {Printed on \today}
+  \par
+  For directory changes, please email BPCADirectory@gmail.com, and changes will be reflected in next year's version.
+	
+\end{titlepage}
+
+\fancyhf{}
+\rhead{Battery Park Directory 2023-2024}
+\rfoot{Page \thepage}
+
+\pagebreak
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+\pagebreak
+
+
+\setcounter{tocdepth}{1}
+
+\tableofcontents
+
+\pagebreak
+\cleardoublepage\phantomsection
+\section{Battery Park Citizen's Association 2023-2024 Board}
+
+
+##Officers
+
+\begin{tabular}{l l l l}
+President & Andy Hasselwander  \\
+Vice President & Anu Swaminathan \\
+Secretary & Bernadette Kiel \\
+Treasurer & Sabine Kolbeck  \\
+Legal Counsel & Ryan Wallach \\
+Past President & Mika Ikeda \\
+\end{tabular}
+
+##Directors
+\begin{tabular}{l l l}
+Robert Dinkenspiel \\
+Marjorie Perloff \\
+Ron Schumacher \\
+George Schreiber \\
+
+\end{tabular}
+
+##Members-at-Large
+\begin{tabular}{l l l}
+Shelby Cook \\
+Josh Graham \\
+Stephanie Platzman-Diamant \\
+Anne Sagalyn \\
+Rebecca Dillon \\
+Susan Vaslow \\
+David Yellin \\
+Jay Bauer  \\
+Yaseman Bauer \\
+
+
+\end{tabular}
+
+##Standing Committee Chairs
+\begin{itemize}
+\item House: Bryce Vermillion
+\item Tennis: Paul Brown
+\item Grounds and Landscaping: Greg Kiel
+\item Social: Tatyana Knop and George Schreiber
+\end{itemize}
+
+##Community House Caretaker / Reservations
+
+Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630. The Community House is located at 7908 Glenbrook Road.
+
+\pagebreak
+\cleardoublepage\phantomsection
+#Community Map
+\includegraphics[width=1.0\textwidth]{CommunityMap.png}\par\vspace{1cm}
+\vfill
+
+\pagebreak
+
+\cleardoublepage\phantomsection
+\section{About Battery Park}
+
+Battery Park Citizens’ Association, Incorporated is a non-profit corporation, chartered in 1927 in the State of Maryland.  Membership is comprised of residents and property owners in the subdivision known as Battery Park, bordered by Wilson Lane, Old Georgetown Road and Maple Ridge Road.
+
+The Governing Board includes all officers, chairpersons of the standing committees, and the immediate past president.  The Board meets on the second Wednesday of every month at 8:00 pm in the Battery Park Clubhouse, except for the months of July and August when a summer recess is observed.  All members of the Association are encouraged to attend.
+
+Two meetings of the entire Association membership are held each year, for the election of new officers in May, and for voting on the annual budget.  Members are notified of these meetings via the Association’s newsletter and/or separately by mail or e-mail.
+
+A newsletter is distributed to all residents a few days before each of the Board meetings.  Any resident wishing to place a notice in the newsletter or to share information with Battery Park residents should contact the Secretary or President.
+
+The Association’s income is derived from property taxes collected by Montgomery County and remitted to the Association.  There are no separate dues.  Expenditures go toward upkeep and improvements of the Clubhouse and grounds, social events, and other general community purposes.
+
+Membership in the Association entitles residents and owners to use of the tennis courts and Clubhouse according to the rules promulgated for each.  These rules, the Association’s by-laws, and the names of current Board members are listed in this Directory.
+
+##Battery Park History
+
+
+###Original Land Grant
+
+Most of Bethesda belonged to the original “Friendship” land grant of 3,124 acres that was awarded to Thomas Addison and James Stoddert on December 1, 1711.  The northern portion belonged to Stoddert (1562 acres) and included the area up to Edgemoor Lane.  Battery Park, adjacent to “Friendship” on the north, formed part of Thomas Fletchall’s 307 acre “Huntington” grant of which he took possession on December 10, 1715.
+
+###Early Bethesda Development
+
+By 1879, the future subdivision of Battery Park was part of farmland belonging to the Lewis Williams family.  The area became more attractive and accessible after March of 1890 when the Tennallytown and Rockville Railroad Company received a charter to extend the line another 3.75 miles from Friendship Heights to Alta Vista by way of Old Georgetown Road.  In 1891 the Railroad Company purchased a 50-acre tract of land at the end of the line and built “Bethesda Park”, an amusement park that included a bandstand, dancing pavilion, rides, Ferris wheel, bowling and refreshments, a hotel, and even an open space for hot-air balloon launching.  Bethesda Park was destroyed by fire and storm damage in August, 1896 and not rebuilt.
+
+In 1913, Harry King and five promoters organized the Woodmont Country Club on a 68-acre site just east of Battery Park.  The club later sold the property to the “Public Health Institute” and established a new golf, tennis, and swimming facility on 500 acres in Rockville.
+
+At the beginning of the 20th century, Bradley Boulevard did not exist as a roadway but as a railway right-of-way which once extended between Wisconsin Avenue and Great Falls.  In order to provide access to their newly developed Bradley Hills subdivision in 1914, Thomas Earl Hampton, both father and son, built the Chevy Chase and Great Falls Railway.
+
+From Wisconsin Avenue the line passed through Edgemoor, then back to Bradley Boulevard, and on to Great Falls.  Although the line ran only until 1921, it did, however, provide an incentive to the development of this area.  Bradley Boulevard was later built on the former railway right-of-way.  The road was named after Joseph Bradley (son of the first Assistant Postmaster General) who had sold his farm to the founders of the Chevy Chase Country Club.
+
+###The Subdivision of Battery Park
+
+Even after the initial development of neighboring Edgemoor, the area to the north remained barren farmland.  After World War I, four military officers either resigned or retired from the service and formed a real estate development company.   Major H.C. Maddux assumed the presidency of Maddux, Marshall, Moss & Mallory.  From their company headquarters located at the National Capital Building (923 15th Street), they controlled and managed five of Washington’s most prominent hotels as well as Washington Gardens, Garrett Park, a group of homes in Luzon Heights, and a community of small farms near Waldorf.  By March of 1923, Maddux, Marshall, Moss & Mallory had purchased the 53.59 acre farm wedged between Wilson’s Lane and the Georgetown Road, and developed the site for the construction of new homes.  The subdivision was formally approved on May 1, 1923.
+
+The developers intended to create a restricted community reserved only for military personnel.  Tradition holds that the name “Battery Park” derives from early residents who were World War I veterans from the same artillery battery.  This attractive neighborhood, however, soon drew the attention of the general public who also sought to settle in the area.  As a result of this interest, the developers finally relented and opened access to civilians “who would measure up to the standards required to live in Battery Park”.  The development and sales of Battery Park properties were so successful that the Maddux Company was called upon to take over real estate sales in Edgemoor.
+
+###Early Recollections
+
+Prior to Battery Park’s initial residential development, there was a vegetable truck garden on some of the land, and a few stands of trees, but the area was largely bare of houses, streets or utilities.  The first houses (5203, 5205, 5207, and 5211 Wilson Lane) were completed by the end of 1923, and in the next year another 40 were added.  Growth was steady, though slowed by the stock market crash of 1929.  By the time of Pearl Harbor in 1941, there were houses built on almost 90 per cent of all the lots.
+
+Construction was not typical of the mass-produced housing of today.  Foundations were excavated by a horse-drawn metal scoop.  Galvanized pipe was threaded by hand.  There were no electric saws to cut the full-size 2x4’s.  Covenants required that houses cost at least $6,500 and some were in the $9,000 to $12,000 range.  The Dutch Colonial with its gambrel roof was a favorite in Battery Park, as it was all over the Washington and the whole eastern U.S.  Bathrooms in the basement bespoke a day when servants were expected and affordable.  
+
+There were only small, newly planted trees, and, in one person’s recollection, Battery Park looked stark. School was at Bethesda Elementary and the B-CC High School on Leland Street, until the first of the new high school buildings on East-West Highway opened in September 1937. As is today, there was an annual 4th of July parade at the Clubhouse with bunting-decorated bicycles and, from the early 1930s, there were the perennial problems of “unnecessary” sirens from the fire trucks, how to get more people to attend the Association’s meetings, and debates concerning how best to manage the community's grounds.
+
+\pagebreak
+\cleardoublepage\phantomsection
+\section{The Community House}
+
+##House Rules
+
+###Definitions and Scope
+
+The term “Community House”, includes the Community House itself, located at 7908 Glenbrook Road, the Community House grounds, and any tangible property inside the house or on the grounds.  The term "the Association" refers to the Battery Park Citizens Association, Incorporated and its successors and assigns.  The term "Governing Board" refers to the Association's Governing Board or any board of directors or trustees that may succeed it.  A "member" is a resident taxpayer member of the Association, or a residential tenant of such a person, who is at least 21 years old; in any household having two or more such persons, all of such persons shall jointly and severally deemed to be the “member,” not only the person who signed the Application, although only one such person is required to attend and supervise the event, and therefore all such persons are responsible and liable for compliance with these House Rules. .
+
+These House Rules apply only to use of the Community House by members.  These House Rules do not apply to use of the Community House by the Association itself for its business or social events.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{BPPlayground.jpg}
+\caption{ Battery Park's playground was renovated in 2012.}
+\end{figure}
+
+
+###Supervision
+
+The Community House shall be under the direct supervision of the House Committee Chairperson who shall, in turn, be responsible to the Governing Board.  (However, if and when the member using or wishing to use the Community House is the House Committee Chair, then all references in these House Rules to the House Committee Chair shall instead be deemed to refer to the President of the Association.)
+
+###Application Procedure
+
+Application for use of the Community House shall be made by a member to the Caretaker at bpca.reservations@gmail.com at least three days, and not more than 90 days, in advance except under unusual circumstances such as wedding receptions.  Any approval under the "unusual circumstances" exception may be given only by the President or by the House Committee Chairperson.
+
+An application for use of the Community House shall be submitted by the member, accompanied by a full explanation of the intended purpose, i.e., whether a private party or group function, the maximum number of people expected to attend, if they will be from within or outside Battery Park, and precise times the event will begin and end (including time needed for preparations and cleanup). 
+
+The Caretaker is responsible for the assignment of specific reservation dates and the keeping of the official calendar covering all engagements.
+
+If more than one member desires to reserve the Community House for the same date/time, the House Committee Chairperson shall determine which reservation shall be honored.  Although priority will generally be given in order of sign-up, there may be occasions when other considerations control. 
+
+###Deposits
+
+The member is required to deposit with the Caretaker a deposit check made out to the Battery Park Citizens Association when the key is picked up for the event.  The amount of the deposit will be determined from time to time by the Governing Board.
+
+The deposit check will be returned upon request or otherwise shredded when the key is returned to the Caretaker within 24 hours after the function, provided that the Community House has been left in an adequately clean and undamaged condition at the conclusion of the usage period.  As more fully noted below, a determination of such condition shall be made in the first instance by the House Committee Chairperson.  If the Caretaker is required to clean the House, or if damage to the Community House (including the grounds) has occurred, the deposit will be forfeited in the amount required to correct the damage as determined by the House Committee Chairperson. 
+In the event of a dispute over assigned charges, the matter will be referred by the House Committee Chairperson to the Governing Board for consideration at its next regular meeting, at which time the aggrieved member may present his/her views to the Governing Board.  The Governing Board’s decision shall be binding.
+
+The deposit is not the sole measure of damages or the sole remedy the Association has against a member who violates, or who is responsible for an event at the Community House that violates, these House Rules.  Members remain fully liable for any damage that exceeds the deposit.  Failure to pay will result in revocation of the privilege to use the Community House and may, in addition, result in legal process brought by the Association against the member for reimbursement.
+
+###Approved and Not Approved Uses
+
+Use of the Community House for private social functions by members is permitted. 
+
+Any member may sponsor the use of the Community House in conjunction with a specific organization twice within a calendar year.  The member must be a bona fide member of such organization.
+
+Any member household may reserve the Community House free of charge for up to three holiday or weekend events in a calendar year.  For these purposes a holiday is defined as a Federal holiday and includes the preceding evening as well (e.g. Christmas Eve or New Year’s Eve).  Similarly, a weekend is defined as beginning after 5:00 p.m. on Friday and running through Sunday.  Exceptions to the three-event maximum can be granted by the House Committee Chairperson, but only under compelling circumstances.
+
+Events, even if entirely indoors, must end by 10:00 p.m. (not including required clean up period) on Sunday through Thursday nights and by 12:00 a.m. (not including required clean up period) on Friday and Saturday nights and nights preceding holidays.
+
+The maximum attendance permitted at any event for adults inside the Community House is 48 persons on the main level and 48 persons in the basement area.  It is the responsibility of the member to ensure that attendance does not exceed these limits.
+
+Use of the Community House for children's events shall normally be limited to groups of no more than 25 persons (adults and children). Exceptions to this rule may be made at the discretion of the Committee Chairperson.  It is the responsibility of the member to ensure that attendance does not exceed these limits.
+
+Use of the tennis courts is not included with Community House use except for tennis parties which have been approved in advance by the Tennis Committee Chairperson.
+
+The grounds of the Community House, including the tennis courts, front yard, front porch, playground and backyard, are not to be used for any activities of any sort, regardless of time of day, or for evening or early morning events or at any other hours, that may be an unreasonable nuisance to neighbors. Furthermore, if music is played in the Clubhouse, the doors and windows shall remain closed to avoid causing disturbance to neighbors.
+
+A member granted use of the Community House for a specific date and time shall have exclusive use of the entire Community House (except for the Caretaker's own quarters) during that time.
+
+###The Member's Responsibilities
+
+The member is responsible for ensuring orderly conduct at an event, and for securing the Community House at the end of the usage period. Unbecoming or disorderly conduct during an event is prohibited.  Any unbecoming or disorderly conduct will be reported to the Governing Board for appropriate action including, but not limited to, suspension of use privileges.
+
+The member must be present throughout the duration of the event.
+
+When use of the Community House is for an event primarily for persons under 21 years of age, the parent sponsoring the event must submit the application, must attend and supervise the event throughout its duration, and no alcohol (even for adults) is permitted at such events.
+
+\begin{figure}
+\includegraphics{CommunityHouse.png}
+\caption{The Community House is a unique resource for members and their guests.}
+\end{figure}
+
+The member assumes full responsibility for any alcohol that is made available or consumed at the Community House during the event, even if not provided by the member.  Without limiting the member's responsibilities in this regard, the member is responsible for ensuring that excessive alcohol will not be consumed by any guest during the event, and that alcohol will not be consumed or possessed by any person under the age of 21.  Excessive alcohol consumption is defined as consumption that results in a blood alcohol level in excess of the then-legally permitted level for the operation of a motor vehicle in the State of Maryland.
+
+The member is responsible for familiarizing himself/herself and his or her guests with the location and usage of all available fire exits prior to the event and for keeping all such exits free of any obstacles.  Questions about the location or usage of any fire exit should be directed to the Caretaker prior to the event.  Children utilizing the basement of the Community House must be properly supervised at all times by a person of suitable age who is familiar with and capable of operating the basement fire exit.
+
+Electrical outlets or other sources of electricity (including, but not limited to light bulb sockets) are not to be tampered with.  Overloading of outlets is prohibited.  Before utilizing equipment with substantial electrical load (such as amplifiers or speakers for musicians), it is the responsibility of the member to ensure that it is safe to operate such equipment on the Community House's wiring. (For this purpose, the member should assume that the wiring dates to the original construction of the Community House.)
+
+No article may be borrowed or taken from the Community House at any time.
+
+No smoking is permitted at the Community House at any time.
+
+The member shall ensure that the Community House is left in good order, e.g., the walls, floors, furnishings, and equipment are cleaned and undamaged following an event.  The Association may determine guidelines or checklists for that purpose from time to time.  If the Association does so, those guidelines or checklists shall govern.  In the absence of such guidelines or checklists, or if interpretation of guidelines or checklists is needed, the reasonable judgment of the House Committee Chairperson shall govern.  Charges will be assessed for replacing missing property, repairs, and/or excessive clean-up as required.
+
+The member will defend (with counsel acceptable to the Association), indemnify and hold harmless the Association and its past, current and future officers, members of the Governing Board, the Caretaker and any other employees and agents of the Association, individually and collectively, against and from any claim, demand, suit, action, proceeding, judgment, award, loss, cost, or expense (including, without limitation, reasonable attorney's fees and court costs) arising from or relating to any violation of these House Rules, including (but not limited to) injury to persons or loss or damage to property.  Members should not assume that the Association's insurance will cover them or the Association in such events.
+
+\pagebreak
+
+##House Usage Checklist
+
+###Before: Readiness Checklist
+
+MEMBERS CAN EXPECT THE COMMUNITY HOUSE TO BE READY FOR USE.  Any problems in this regard should be promptly reported to the House Committee Chairperson.
+
+All floors, kitchen appliances, surfaces and furniture clean
+\begin{itemize}
+\item Bathrooms clean and stocked with supplies such as soap, paper, hand towels, and toilet paper
+\item Trash cans lined with empty trash bags
+\item Kitchen stocked with extra trash bags, dishwashing soap, scouring pads, paper towels, handiwipes, broom, dustpan, mop, aluminum foil, can opener, and bottle opener
+\item Portable tables and chairs located in the main room
+\item Sound system (if any) and large screen TV equipment (if any) intact
+\item Clean fireplace and mantle (fires are allowed in the fireplace but only with care)
+\end{itemize}
+
+###After: Clean-Up Checklist
+
+To remove all doubt, members should treat the Community House as well as, or better than, they treat their own homes.  Without limiting that obligation, MEMBERS ARE REQUIRED TO:
+\begin{itemize}
+\item Dispose of all party trash and litter inside and outside the Community House
+\item Place all trash bags, closed with ties, in trash cans outside the Community House
+\item Wipe all surfaces clean (including main room and any tables that were used)
+\item Put away tables and chairs
+\item Leave kitchen appliances clean
+\item Empty the refrigerator
+\item Remove all party decorations.  (Members are responsible for repair of any damage from tacks, tape, staples, etc.)
+\item Flush toilets
+\item Sweep floors in kitchen, main room, basement, and stairs, if needed
+\item Remove any crumbs that have fallen beneath the sofa cushions
+\item Hand over keys to the Caretaker, together with list of any damage incurred
+\item Be sure all items (dishes, serving implement, etc.) belonging to the Community House are returned to their proper places
+\end{itemize}
+
+###After the Community House is Used, the Caretaker Will:
+\begin{itemize}
+\item Secure building
+\end{itemize}
+
+###And Within 12 Hours:
+\begin{itemize}
+\item Mop floors
+\item Clean bathrooms
+\item Clean fireplace and dust mantle
+\item See that all items on Readiness Checklist are in order as specified
+\item Report to the House Committee Chairperson on the member’s general compliance or non-compliance with the foregoing and the House Rules.
+\end{itemize}
+
+\pagebreak
+
+##Application for Community House Usage
+
+Note: Please send information in the below application to bpca.reservations@gmail.com; it doesn't have to be in this precise format.
+
+\begin{doublespacing}
+\begin{tabular} {l l l}
+Name of Applicant(s): & \underline{\hspace{7cm}} \\
+Address: & \underline{\hspace{7cm}} \\
+Phone: & \underline{\hspace{7cm}} \\
+Date of Event: & \underline{\hspace{7cm}} \\
+Event Description: & \underline{\hspace{7cm}} \\
+Expected Attendance: & \underline{\hspace{7cm}} \\
+Usage period (including preparation and clean up): & \underline{\hspace{7cm}} \\
+
+\end{tabular}
+\end{doublespacing}
+
+A comprehensive description of the HOUSE RULES and HOUSE USAGE CHECKLIST governing Community House events (hereinafter, the “House Rules”) appears in the Battery Park Community Directory. Prior to using the Community House, please become familiar with the House Rules, including those related to consuming alcohol at the Community House and restrictions on noise levels on the grounds of the Community House, including noise restrictions on the use of the porch or outdoor grounds after 9pm.  All events at the Community House must abide by the Montgomery County Noise Ordinance, the details of which may be reviewed at:                                                                                                                            
+\par http://www.montgomerycountymd.gov/dectmpl.asp?url=/content/dep/community/ordinance.asp
+
+\par By signing this Application for Community House Usage, the applicant hereby acknowledges that: 
+\begin{itemize}
+        \item He/she is a resident taxpayer member of the Association
+        \item Is 21 years of age or older
+        \item Has read and understands the House Rules, the Montgomery County Noise Ordinance and will be present at the event and insure that attendees at the event abide by them
+        \item Has made provisions for cleaning up the community house and grounds within the usage period above.
+\end{itemize}
+\vspace{2cm}
+\begin{doublespacing}
+\begin{tabular} { l l l }
+\underline{\hspace{5cm}} & \underline{\hspace{5cm}} & \underline{\hspace{3cm}} \\
+Applicant’s Signature & Applicant’s Signature & Date \\
+\end{tabular}
+\end{doublespacing}
+\hspace{2cm}
+###Signed Application and Deposit of $\underline{\hspace{1cm}}.00_ Received By:
+\begin{doublespacing}
+\begin{tabular} { l l }
+\underline{\hspace{5cm}} & \underline{\hspace{3cm}}  \\
+Name & Date \\
+\end{tabular}
+\end{doublespacing}
+\vfill
+Revised: January 30th, 2013
+
+\pagebreak
+\cleardoublepage\phantomsection
+\section{Tennis Courts}
+
+
+##Tennis Court Rules
+\begin{enumerate}
+\item Use of these courts is restricted to Battery Park residents and their guests. Residents and guests are restricted to one court if other residents are waiting.
+\item The primary use of the tennis courts is for tennis, and whenever tennis players are using the court, or wish to use the court, anyone engaged in non-tennis activities shall, at the request of the players, vacate the courts.  The total number of individuals engaged in non-tennis activities shall not exceed ten at any given time.
+\item Permitted activities other than tennis are kicking of soccer balls, passing of footballs, playing catch with tennis balls, and using badminton shuttlecocks (using the existing tennis nets).  
+\item Prohibited activities include the use of baseballs, softballs and bats, the use of nets and sticks for lacrosse or hockey, the use of rollerblades, skateboards, scooters, bikes, tricycles, and any other item that might damage the court surface. Shoes must be non-marking rubber-soled types (cleated or vibram-soled shoes are not permitted). Climbing the fence surrounding the courts is strictly prohibited. 
+\item Parents will be held responsible for enforcing these rules with their children, and will  be billed for repairs caused by prohibited types of play and/or equipment.   
+\item Both courts are available for play on a "first-come, first-served” basis. However, players must under all circumstances yield the court after a maximum of one hour of play if other players are waiting.
+\item In situations when court possession is in dispute, the following rules apply:
+        \begin{enumerate}
+	\item A single practicing player must yield the court to a pair of waiting players.
+	\item A single player whose partner has not appeared within 15 minutes after the arrival of another party of players must yield the court to the assembled party.
+	\end{enumerate}
+\item Players are responsible for closing the court gate upon leaving.  All tennis play and other activity on the courts must stop at 10:00 PM, weekdays and weekends.
+\item Any special arrangements for reserving court time for tennis clinics, tournaments, or tennis-related parties must be approved in advance by the Tennis Committee Chairperson.
+\item In the event of unresolved disputes about use of the courts, residents may appeal to the Tennis Committee Chairperson, who shall be the final authority to interpret and enforce the above-stated rules.  
+
+\end{enumerate}
+
+\pagebreak
+\cleardoublepage\phantomsection
+\section{Parking}
+
+Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must be in the County RPP (Residential Parking Permit) database. Cars may not park on most of Exeter Road on Monday-Friday, from 9:00-5:00. Please note that residents of Exeter Road are attempting to add their street to the RPP program as this Directory is being printed.  Parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
+
+Guest permits: Currently, guest permits must be renewed weekly, tied to a specific license plate. These are free of charge, and are tied to the household.
+
+Residents can obtain parking permits at https://montgomerycounty.digitalpermits.com/
+
+
+\begin{LARGE}
+\cleardoublepage\phantomsection
+\section{Frequently Used Numbers}
+\end{LARGE}     
+
+\begin{tabu} to 1.0 \textwidth { X[3] X[1] X[1.5 J b] }
+COMMUNITY HOUSE RESERVATIONS: & 301-652-9630 & bpca.reservations@gmail.com\\
+Fire, Police or Emergency Rescue: & 911 \\
+Fire-Rescue, Non-emergency: & 240-777-2400 \\
+Police, Non-emergency: & 301-279-8000 \\
+Maryland State Police: & 301-424-2101 \\
+Bethesda Police Station: & 301-652-9200 & 7359 Wisconsin Avenue \\
+PEPCO: & 202-833-7500 & www.pepco.com/\\
+Washington Gas: & 703-750-1000 & www.washingtongas.com/ \\
+Washington Suburban Sanitary Commission: & 301-699-4555 & www.wsscwater.com \\
+Montgomery County 311: & 311 & www.montgomerycountymd.gov/mc311/ \\
+MC Solid Waste Services: & 240-777-6400 & www.montgomerycountymd.gov/sws/ \\
+MC Government: & 240-777-1000 & www.montgomerycountymd.gov \\ 
+County Council & 240-444-7900 & www.montgomerycountymd.gov/council/ \\
+County Executive: & 240-777-2500 & www.montgomerycountymd.gov/exec/ \\
+Permitting Services: & 240-777-6200 & permittingservices.montgomerycountymd.gov\\
+Zoning: & 240-777-6240 & mcatlas.org/zoning/ \\
+Montgomery County Public Schools: & 301-279-3000 & www.montgomeryschoolsmd.org/ \\
+Board of Elections: & 301-279-3617 & www.montgomerycountymd.gov/elections \\
+BCC Regional Services Center: & 240-777-8200 & www.montgomerycountymd.gov/bcc/\\
+Bethesda Regional Library & 301-986-4300 & 7400 Arlington Road \\
+Residential Parking Permits & montgomerycounty.digitalpermits.com \\
+Transit Information & 240-777-RIDE \\
+METRO Information: & 202-637-7000 & www.wmata.com/ \\
+\end{tabu}
+
+\pagebreak
+
+
+
+\begin{LARGE}
+\cleardoublepage\phantomsection
+\section{Battery Park Citizens' Association By-Laws}
+\end{LARGE}
+
+\subsection{Article 1. Description}
+\textit{Section 1.} The Battery Park Citizens' Association is a non-profit corporation chartered in
+1927 in the State of Maryland, whose membership is defined below in ARTICLE 2. The
+subdivision of Battery Park is described in Plat Book No. 1, Plat 245, and Plat Book No. 3,
+Plats 260 and 261, of the land records of Montgomery County, Maryland.
+
+\textit{Section 2.} The principal office of this Corporation shall be at the Community House
+located at 7908 Glenbrook Road, Bethesda, Maryland. The resident agent shall be the
+Crestar Bank (formerly Bank of Bethesda), Bethesda, Maryland, which shall report to the
+duly elected Treasurer of the Corporation, all communications received by it.
+
+\textit{Section 3.} The Corporation is authorized to use its own Corporate Seal, which shall
+remain in the custody of its Treasurer.
+
+\subsection{Article 2. Membership}
+
+\textit{Section 1.} Battery Park taxpayers listed on the real estate tax rolls of Montgomery County are voting members of the Corporation, subject to ARTICLE 2, Section 2. Resident taxpayer members, together with other residents of their households, shall have privileges to use the Community House and grounds. Non-resident taxpayer members may assign their voting rights and/or use privileges to the actual residents of their properties. Voting rights may be assigned only to adult residents. 
+
+\textit{Section 2.} Each voting member shall be entitled to vote at all membership meetings of the Corporation (as distinguished from meetings of the Governing Board), except that not more than two votes per listed property shall be recorded on any given matter. Members may cast their ballots at the meeting or \textit{in absentia}, provided their ballots reach the Secretary of the Corporation before the vote. Each ballot may be submitted in a sealed envelope showing the name and address of such member(s).
+
+\textit{Section 3.} The act of the majority of the members voting at any meeting of the membership shall constitute the act of the Corporation on any legitimate matter before it.
+
+\subsection{Article 3. Membership Meetings}
+
+\textit{Section 1.} All meetings of this Corporation shall be held in the principal office unless otherwise indicated in a notice of the meeting.
+
+\textit{Section 2.} Notice shall be delivered in writing to each household not less than seven days before any regular meeting of the membership and not less than three days before any special meeting of the membership, and shall set forth the purpose of the meeting. Failure of any member to receive notice of a meeting, in the absence of proof of fraud or gross negligence on the part of the constituted officers, shall not invalidate any act of the Corporation at a membership meeting.
+
+\textit{Section 3.} An annual meeting of the membership shall be held during the month of May, on a date to be decided by the Governing Board, but no later than the 15th day of the month, at which time the members of the Corporation shall by plurality elect for the ensuing year all officers, directors, and members-at-large of the Governing Board. The newly-elected Board shall immediately thereafter assume office.
+
+\textit{Section 4.} An annual meeting of the membership shall be held during the month of April, on a date to be decided by the Governing Board but no later than the 15th day of the month, at which time the members of the Corporation shall consider and adopt by majority vote a proposed annual budget, prepared in advance by the Governing Board, and covering all the annual expenses of the Corporation incident to the acquisition, maintenance, operation, and development of the Community House and grounds belonging to the Corporation, provided that such budget does not exceed the sum derived from a tax of 15 cents on each $100 valuation of the whole assessable property situated in the area of Battery Park, as defined in its Articles of Incorporation. Such budget shall also project the annual revenues and net fiscal reserves of the Corporation.
+
+The fiscal year of the Corporation shall begin on the first day of July in each year, but may be changed by the Board upon showing of expediency or necessity.
+
+The budget adopted by the membership may be amended by the President upon the recommendation of the relevant committees. However, amendments of the budget which would raise capital expenditures of the expenditures of any committee more than 10 percent or $100 (whichever is greater) above the adopted budget, or total expenditures more than 10 percent above the adopted budget, shall require the approval of a majority of the Board. Amendments which would reduce the net financial reserves of the Corporation to less than 50 per cent of the reserves projected in the budget shall require the approval of the  Corporation at a membership meeting.
+
+\textit{Section 5.} Special meetings of the membership of the Corporation shall be convened at such other times and places as may be designated its President or a majority of its Governing Board. 
+
+\subsection{Article 4. Governing Board} 
+
+\textit{Section 1.} The Corporation shall be administered by a governing Board of the 5 elected officers, 4 elected Directors, 9 elected Members-at-Large, the immediate Past President of the Corporation, and the chairs (or co chairs) of the 6 standing committees appointed by the President, who may be appointed from the Directors or Board Members-at-Large. The act of the Governing Board shall be the act of the Corporation.
+
+\textit{Section 2.} The board shall meet in each month except July and August and those months in which regular annual meetings of the membership occur to transact such business as may come before it. Special meetings may be convened upon call of the President or a majority of the Board. Any meeting of the Board may be changed as to date and location upon due notice, provided meetings are held in the months prescribed above.
+
+\textit{Section 3.} The act of a majority of the Board members present at any regular or special meeting shall be the act of the Board, provided that a quorum of 7 board members be present. Vote shall be by voice of show of hands unless a majority request written secret ballot.
+
+\textit{Section 4.} Each year, at the March meeting of the Governing Board, the President, with the concurrence of the Board, shall appoint a committee of not fewer than 3 nor more than 5 members of the Corporation to prepare a slate of candidates for all offices, directorships, and Board memberships-at-large for the ensuing year. At the April meeting, the committee shall present its recommendations to the Membership. In addition, the Board shall accept nominations for any of the above-named positions form any members of the Corporation, provided such nomination is accompanied by a written petition signed by no fewer than 10 members of the Corporation, ancithat the petition is received by the Secretary no later than 10 days after the April meeting of the Board. Such candidates' names shall appear on the ballot, along with the names of the Board-approved candidates. 
+Any candidate, whether chosen by the Board or proposed by written petition, must be a member of the Corporation and must have agreed to accept the nomination. One or more persons may be nominated for any position. 
+
+The slate of candidates and the above-stated procedure for nominating candidates by petition shall be included with notice of the election meeting, as provided in ARTICLE 3, Section 2.
+
+The slate of candidates shall be presented again at the meeting itself before the actual taking of the vote. 
+
+\textit{Section 5.} The Board shall prepare an annual budget for submission to the Corporation at the membership meeting each February. The proposed budget shall be included with notice of the budget meeting, as provided in ARTICLE 3, Section 2.
+
+\textit{Section 6.} The Board shall act as a legally and specially constituted fiscal agent to manage the Community House and grounds, and to authorize the disbursement of funds according to its budget for payment of acquisitions, costs, and maintenance of the House and grounds, and generally through its proper committees to operate and regulate the use of the House and grounds as provided by law and these By-laws.
+
+\textit{Section 7.} The Board shall act for and in the name of the Corporation in matters not only pertaining to the Community House and grounds, but also in matters of general interest and concern to the membership of the Corporation.
+
+\textit{Section 8.} The Board shall provide any services or duties not herein set forth, resolve any vagaries or conflict of rules or these By-laws, and fill out any interregnum role not herein anticipated.
+
+\subsection{Article 5. Officers}
+
+\textit{Section 1.} The officers of the Corporation shall consist of a President, Vice-President, Secretary, Treasurer and Counsel. The Board may appoint such other officers, with appropriate powers and duties, as it may deem necessary.
+
+\textit{Section 2.} The President shall be the chief executive office of the Corporation, preside at all meetings of the membership and the Governing Board, have general active management of the business and operations of the Corporation, and see that all orders and resolutions of the Board or the membership are carried out. The President shall appoint the chairs of all committees and shall be an ex-officio member of all committees.
+
+\textit{Section 3.} The Vice-President shall in the absence of the President perform all duties and be vested with all rights of the President. 
+
+\textit{Section 4.} The Secretary shall be charged with recording all minutes and transactions of the Board and the membership, giving notice of all such meetings and conducting such correspondence of the Corporation as required by the President of the Board.
+
+\textit{Section 5.} The Treasurer shall have custody of the funds of the Corporation, keep accurate accounts of receipts and disbursements, deposit, disburse, provide vouchers and give reports as required by the Board. The Treasurer shall provide an annual report to the Corporation which shall include a report on expenditures for each of the standing committees and, when required by the Board, shall provide a bond for the faithful performance of his or her duties in an amount and with a surety as may be required by the Board. Upon approval of the annual budget, the Treasurer shall immediately petition the Montgomery County Council to make a special levy upon the property located in Battery Park, as provided in applicable law.
+
+\textit{Section 6.} The Counsel shall be a member in good standing of any State (or the District of
+Columbia) Bar and shall be charged with advising the Corporation and the Board on legal — matters. The Counsel shall be an ex-officio member of all committees.
+
+\subsection{Article 6. Directors}
+
+Four positions on the Governing Board shall be designated as Directors. These members
+shall have no specific duties, but shall be expected to render sage advice on matters
+coming before the Board.
+
+\subsection{Article 7. Board Members at Large}
+
+Nine Board members shall be elected at–large who at the request of the President may
+represent the interests of the Corporation at community meetings and report to the Board
+as appropriate.
+
+\subsection{Article 8. Committees}
+\textit{Section 1.} The Corporation shall have the following standing committees, the chairs of
+which shall be appointed by the President:
+
+\begin{itemize}
+\item \textbf{House Committee:} The committee shall have full charge of the use, services, furnishings and supplies of the Community House. It shall have supervision over the caretaker and promulgate house rules which, upon approval by the Board, shall have the force of law.
+
+\item \textbf{Grounds Committee:} This committee shall be responsible for all maintenance and upkeep of the grounds belonging to the Corporation.
+
+\item \textbf{Program and Social Committee:} This committee shall be charged with the presentation and execution of all social activities for the membership.
+
+\item \textbf{Zoning and Land Use Committee:} This committee shall be responsible for informing the board on developments which may conflict with maintaining the low density residential integrity of Battery Park. The committee will suggest matters for Board action and, at the discretion of the Board, provide representation on zoning and land use matters to Montgomery County agencies and officials.
+
+\item \textbf{Tennis Committee:} This committee shall oversee the condition and maintenance of
+the tennis courts, shall make recommendations on tennis court rules to the Board,
+and shall supervise enforcement of such rules.
+
+\item \textbf{Community Appearance (Tree) Committee:} This committee shall oversee the maintenance and planting of street trees in Battery Park in cooperation with the Montgomery County Department of Transportation.
+\end{itemize}
+
+\textit{Section 2.} Each Committee shall submit all bills for expenses to the Treasurer for payment. In addition, each committee shall each year present a proposed budget to the Board to aid in preparing the annual budget subsequently presented to the membership of the Corporation.
+
+\textit{Section 3.} The President of the Governing Board may appoint ad hoc committees as
+circumstances warrant.
+
+\subsection{Article 9. Procedural Rules}
+
+Robert's Rules of Order shall govern all procedural questions arising at any meeting of the membership of the Governing Board.
+
+\subsection{Article 10. Amendments}
+
+A proposed amendment must be presented to the Governing Board by one of its members. If the Board approves the proposal by majority vote, it shall then be presented to the membership in a written notice stating the proposed amendment, and delivered to each household at least seven days before any regular meeting of the membership, or at any special meeting called for the purpose, provided that such notice shall state the time and place of the meeting. A majority of the votes cast by the membership shall be required for approval of the amendment.
+
+\textit{\textbf{Revised and Approved January, 2002}}
+
+\pagebreak
+
+\cleardoublepage\phantomsection
+\section{Alphabetical List of Battery Park Residents by Last Name}
+\begin{multicols}{2}
+
+
+```{r  dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
+source("executable.R")
+for(i in 1:length(directoryEntriesAll)){
+        cat(" \\begin{samepage}" )
+        cat(directoryEntriesAll[i])
+        cat(" \\newline ")
+        cat(" \\par ")
+        cat(" \\end{samepage} ")
+}
+```
+\end{multicols}
+
+
+\pagebreak
+
+\cleardoublepage\phantomsection
+\section{Street Name Index}
+
+\begin{multicols}{3}
+```{r dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
+
+for(i in 1:length(streetEntries)){
+        cat(streetEntries[i])
+        cat(" \\par ")
+}
+```
+\end{multicols}
+
+
+
+
+
+
+
+
+
+
+
