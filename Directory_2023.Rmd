@@ -14,6 +14,8 @@ header-includes:
    - \usepackage{underscore}
    - \usepackage[english]{babel}
    - \usepackage{titlesec}
+   - \titleformat*{\section}{\Huge\bfseries}
+   - \titleformat*{\subsection}{\Large\bfseries}
    - \usepackage{graphicx}
    - \usepackage{tabu}
    - \usepackage{geometry}
@@ -30,8 +32,6 @@ header-includes:
 \pagestyle{fancy}
 \fontsize{11}{14}
 \fontfamily{pbk}
-\titleformat*{\section}{\Huge\bfseries}
-\titleformat*{\subsection}{\Large\bfseries}
 \hypersetup{% 
 pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=blue, urlcolor=cyan!50!black!90}
 
@@ -74,7 +74,7 @@ pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=b
 \section{Battery Park Citizen's Association 2023-2024 Board}
 
 
-##Officers
+## Officers
 
 \begin{tabular}{l l l l}
 President & Andy Hasselwander  \\
@@ -85,7 +85,7 @@ Legal Counsel & Ryan Wallach \\
 Past President & Mika Ikeda \\
 \end{tabular}
 
-##Directors
+## Directors
 \begin{tabular}{l l l}
 Robert Dinkenspiel \\
 Marjorie Perloff \\
@@ -94,7 +94,7 @@ George Schreiber \\
 
 \end{tabular}
 
-##Members-at-Large
+## Members-at-Large
 \begin{tabular}{l l l}
 Shelby Cook \\
 Josh Graham \\
@@ -109,7 +109,7 @@ Yaseman Bauer \\
 
 \end{tabular}
 
-##Standing Committee Chairs
+## Standing Committee Chairs
 \begin{itemize}
 \item House: Bryce Vermillion
 \item Tennis: Paul Brown
@@ -117,13 +117,13 @@ Yaseman Bauer \\
 \item Social: Tatyana Knop and George Schreiber
 \end{itemize}
 
-##Community House Caretaker / Reservations
+## Community House Caretaker / Reservations
 
 Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630. The Community House is located at 7908 Glenbrook Road.
 
 \pagebreak
 \cleardoublepage\phantomsection
-#Community Map
+# Community Map
 \includegraphics[width=1.0\textwidth]{CommunityMap.png}\par\vspace{1cm}
 \vfill
 
@@ -144,14 +144,14 @@ The Association’s income is derived from property taxes collected by Montgomer
 
 Membership in the Association entitles residents and owners to use of the tennis courts and Clubhouse according to the rules promulgated for each.  These rules, the Association’s by-laws, and the names of current Board members are listed in this Directory.
 
-##Battery Park History
+## Battery Park History
 
 
-###Original Land Grant
+### Original Land Grant
 
 Most of Bethesda belonged to the original “Friendship” land grant of 3,124 acres that was awarded to Thomas Addison and James Stoddert on December 1, 1711.  The northern portion belonged to Stoddert (1562 acres) and included the area up to Edgemoor Lane.  Battery Park, adjacent to “Friendship” on the north, formed part of Thomas Fletchall’s 307 acre “Huntington” grant of which he took possession on December 10, 1715.
 
-###Early Bethesda Development
+### Early Bethesda Development
 
 By 1879, the future subdivision of Battery Park was part of farmland belonging to the Lewis Williams family.  The area became more attractive and accessible after March of 1890 when the Tennallytown and Rockville Railroad Company received a charter to extend the line another 3.75 miles from Friendship Heights to Alta Vista by way of Old Georgetown Road.  In 1891 the Railroad Company purchased a 50-acre tract of land at the end of the line and built “Bethesda Park”, an amusement park that included a bandstand, dancing pavilion, rides, Ferris wheel, bowling and refreshments, a hotel, and even an open space for hot-air balloon launching.  Bethesda Park was destroyed by fire and storm damage in August, 1896 and not rebuilt.
 
@@ -161,13 +161,13 @@ At the beginning of the 20th century, Bradley Boulevard did not exist as a roadw
 
 From Wisconsin Avenue the line passed through Edgemoor, then back to Bradley Boulevard, and on to Great Falls.  Although the line ran only until 1921, it did, however, provide an incentive to the development of this area.  Bradley Boulevard was later built on the former railway right-of-way.  The road was named after Joseph Bradley (son of the first Assistant Postmaster General) who had sold his farm to the founders of the Chevy Chase Country Club.
 
-###The Subdivision of Battery Park
+### The Subdivision of Battery Park
 
 Even after the initial development of neighboring Edgemoor, the area to the north remained barren farmland.  After World War I, four military officers either resigned or retired from the service and formed a real estate development company.   Major H.C. Maddux assumed the presidency of Maddux, Marshall, Moss & Mallory.  From their company headquarters located at the National Capital Building (923 15th Street), they controlled and managed five of Washington’s most prominent hotels as well as Washington Gardens, Garrett Park, a group of homes in Luzon Heights, and a community of small farms near Waldorf.  By March of 1923, Maddux, Marshall, Moss & Mallory had purchased the 53.59 acre farm wedged between Wilson’s Lane and the Georgetown Road, and developed the site for the construction of new homes.  The subdivision was formally approved on May 1, 1923.
 
 The developers intended to create a restricted community reserved only for military personnel.  Tradition holds that the name “Battery Park” derives from early residents who were World War I veterans from the same artillery battery.  This attractive neighborhood, however, soon drew the attention of the general public who also sought to settle in the area.  As a result of this interest, the developers finally relented and opened access to civilians “who would measure up to the standards required to live in Battery Park”.  The development and sales of Battery Park properties were so successful that the Maddux Company was called upon to take over real estate sales in Edgemoor.
 
-###Early Recollections
+### Early Recollections
 
 Prior to Battery Park’s initial residential development, there was a vegetable truck garden on some of the land, and a few stands of trees, but the area was largely bare of houses, streets or utilities.  The first houses (5203, 5205, 5207, and 5211 Wilson Lane) were completed by the end of 1923, and in the next year another 40 were added.  Growth was steady, though slowed by the stock market crash of 1929.  By the time of Pearl Harbor in 1941, there were houses built on almost 90 per cent of all the lots.
 
@@ -179,9 +179,9 @@ There were only small, newly planted trees, and, in one person’s recollection,
 \cleardoublepage\phantomsection
 \section{The Community House}
 
-##House Rules
+## House Rules
 
-###Definitions and Scope
+### Definitions and Scope
 
 The term “Community House”, includes the Community House itself, located at 7908 Glenbrook Road, the Community House grounds, and any tangible property inside the house or on the grounds.  The term "the Association" refers to the Battery Park Citizens Association, Incorporated and its successors and assigns.  The term "Governing Board" refers to the Association's Governing Board or any board of directors or trustees that may succeed it.  A "member" is a resident taxpayer member of the Association, or a residential tenant of such a person, who is at least 21 years old; in any household having two or more such persons, all of such persons shall jointly and severally deemed to be the “member,” not only the person who signed the Application, although only one such person is required to attend and supervise the event, and therefore all such persons are responsible and liable for compliance with these House Rules. .
 
@@ -193,11 +193,11 @@ These House Rules apply only to use of the Community House by members.  These Ho
 \end{figure}
 
 
-###Supervision
+### Supervision
 
 The Community House shall be under the direct supervision of the House Committee Chairperson who shall, in turn, be responsible to the Governing Board.  (However, if and when the member using or wishing to use the Community House is the House Committee Chair, then all references in these House Rules to the House Committee Chair shall instead be deemed to refer to the President of the Association.)
 
-###Application Procedure
+### Application Procedure
 
 Application for use of the Community House shall be made by a member to the Caretaker at bpca.reservations@gmail.com at least three days, and not more than 90 days, in advance except under unusual circumstances such as wedding receptions.  Any approval under the "unusual circumstances" exception may be given only by the President or by the House Committee Chairperson.
 
@@ -207,7 +207,7 @@ The Caretaker is responsible for the assignment of specific reservation dates an
 
 If more than one member desires to reserve the Community House for the same date/time, the House Committee Chairperson shall determine which reservation shall be honored.  Although priority will generally be given in order of sign-up, there may be occasions when other considerations control. 
 
-###Deposits
+### Deposits
 
 The member is required to deposit with the Caretaker a deposit check made out to the Battery Park Citizens Association when the key is picked up for the event.  The amount of the deposit will be determined from time to time by the Governing Board.
 
@@ -216,7 +216,7 @@ In the event of a dispute over assigned charges, the matter will be referred by 
 
 The deposit is not the sole measure of damages or the sole remedy the Association has against a member who violates, or who is responsible for an event at the Community House that violates, these House Rules.  Members remain fully liable for any damage that exceeds the deposit.  Failure to pay will result in revocation of the privilege to use the Community House and may, in addition, result in legal process brought by the Association against the member for reimbursement.
 
-###Approved and Not Approved Uses
+### Approved and Not Approved Uses
 
 Use of the Community House for private social functions by members is permitted. 
 
@@ -236,7 +236,7 @@ The grounds of the Community House, including the tennis courts, front yard, fro
 
 A member granted use of the Community House for a specific date and time shall have exclusive use of the entire Community House (except for the Caretaker's own quarters) during that time.
 
-###The Member's Responsibilities
+### The Member's Responsibilities
 
 The member is responsible for ensuring orderly conduct at an event, and for securing the Community House at the end of the usage period. Unbecoming or disorderly conduct during an event is prohibited.  Any unbecoming or disorderly conduct will be reported to the Governing Board for appropriate action including, but not limited to, suspension of use privileges.
 
@@ -265,9 +265,9 @@ The member will defend (with counsel acceptable to the Association), indemnify a
 
 \pagebreak
 
-##House Usage Checklist
+## House Usage Checklist
 
-###Before: Readiness Checklist
+### Before: Readiness Checklist
 
 MEMBERS CAN EXPECT THE COMMUNITY HOUSE TO BE READY FOR USE.  Any problems in this regard should be promptly reported to the House Committee Chairperson.
 
@@ -281,7 +281,7 @@ All floors, kitchen appliances, surfaces and furniture clean
 \item Clean fireplace and mantle (fires are allowed in the fireplace but only with care)
 \end{itemize}
 
-###After: Clean-Up Checklist
+### After: Clean-Up Checklist
 
 To remove all doubt, members should treat the Community House as well as, or better than, they treat their own homes.  Without limiting that obligation, MEMBERS ARE REQUIRED TO:
 \begin{itemize}
@@ -299,12 +299,12 @@ To remove all doubt, members should treat the Community House as well as, or bet
 \item Be sure all items (dishes, serving implement, etc.) belonging to the Community House are returned to their proper places
 \end{itemize}
 
-###After the Community House is Used, the Caretaker Will:
+### After the Community House is Used, the Caretaker Will:
 \begin{itemize}
 \item Secure building
 \end{itemize}
 
-###And Within 12 Hours:
+### And Within 12 Hours:
 \begin{itemize}
 \item Mop floors
 \item Clean bathrooms
@@ -315,7 +315,7 @@ To remove all doubt, members should treat the Community House as well as, or bet
 
 \pagebreak
 
-##Application for Community House Usage
+## Application for Community House Usage
 
 Note: Please send information in the below application to bpca.reservations@gmail.com; it doesn't have to be in this precise format.
 
@@ -350,7 +350,7 @@ Applicant’s Signature & Applicant’s Signature & Date \\
 \end{tabular}
 \end{doublespacing}
 \hspace{2cm}
-###Signed Application and Deposit of $\underline{\hspace{1cm}}.00_ Received By:
+### Signed Application and Deposit of $\underline{\hspace{1cm}}.00_ Received By:
 \begin{doublespacing}
 \begin{tabular} { l l }
 \underline{\hspace{5cm}} & \underline{\hspace{3cm}}  \\
@@ -365,7 +365,7 @@ Revised: January 30th, 2013
 \section{Tennis Courts}
 
 
-##Tennis Court Rules
+## Tennis Court Rules
 \begin{enumerate}
 \item Use of these courts is restricted to Battery Park residents and their guests. Residents and guests are restricted to one court if other residents are waiting.
 \item The primary use of the tennis courts is for tennis, and whenever tennis players are using the court, or wish to use the court, anyone engaged in non-tennis activities shall, at the request of the players, vacate the courts.  The total number of individuals engaged in non-tennis activities shall not exceed ten at any given time.

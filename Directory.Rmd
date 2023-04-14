@@ -12,6 +12,8 @@ header-includes:
    - \usepackage{underscore}
    - \usepackage[english]{babel}
    - \usepackage{titlesec}
+   - \titleformat*{\section}{\Huge\bfseries}
+   - \titleformat*{\subsection}{\Large\bfseries}
    - \usepackage{graphicx}
    - \usepackage{tabu}
    - \usepackage{geometry}
@@ -27,8 +29,6 @@ header-includes:
 \pagestyle{fancy}
 \fontsize{11}{14}
 \fontfamily{pbk}
-\titleformat*{\section}{\Huge\bfseries}
-\titleformat*{\subsection}{\Large\bfseries}
 \hypersetup{% 
 pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=blue, urlcolor=cyan!50!black!90}
 
