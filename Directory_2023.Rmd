@@ -2,8 +2,10 @@
 title: "Battery Park Community Directory"
 output:
     pdf_document:
+        pandoc_args: [
+       "--from=markdown+raw_tex"
+    ]
         template: notitle.tex
-        latex_engine: pdflatex
 latex: TRUE
 header-includes:
    - \usepackage{multicol}
@@ -18,14 +20,15 @@ header-includes:
    - \usepackage{tabu}
    - \usepackage{geometry}
    - \geometry{letterpaper, portrait, margin=1in}
-   - \usepackage{hyperref}
    - \usepackage{xcolor}
    - \usepackage{setspace}
    - \usepackage{afterpage}
+   - \usepackage{hyperref}
+   - \usepackage{bookmark}
  
 
 ---
-
+  
 \pagestyle{fancy}
 \fontsize{11}{14}
 \fontfamily{pbk}
@@ -33,24 +36,24 @@ header-includes:
 pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=blue, urlcolor=cyan!50!black!90}
 
 \begin{titlepage}
-	\centering
-	{\Huge\bfseries Battery Park Community Directory\par}
-	\vspace{2cm}
-	{\huge\itshape 2017-2018\par}
-	\vspace{1cm}
-	\includegraphics[width=0.9\textwidth]{Welcome.png}\par\vspace{2cm}
-	\vfill
+  \centering
+  {\Huge\bfseries Battery Park Community Directory\par}
+  \vspace{2cm}
+  {\huge\itshape 2023-2024\par}
+  \vspace{1cm}
+  \includegraphics[width=0.9\textwidth]{Welcome.png}\par\vspace{2cm}
+  \vfill
 
 % Bottom of the page
 
-	{Printed on \today}
-	\par
-	For directory changes, please email BPCADirectory@gmail.com, and changes will be reflected in next year's version.
+  {Printed on \today}
+  \par
+  For directory changes, please email BPCADirectory@gmail.com, and changes will be reflected in next year's version.
 	
 \end{titlepage}
 
 \fancyhf{}
-\rhead{Battery Park Directory 2017-2018}
+\rhead{Battery Park Directory 2023-2024}
 \rfoot{Page \thepage}
 
 \pagebreak
@@ -66,12 +69,67 @@ pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=b
 
 \tableofcontents
 
-#Community Map
+\pagebreak
+\cleardoublepage\phantomsection
+\section{Battery Park Citizen's Association 2023-2024 Board}
+
+
+## Officers
+
+\begin{tabular}{l l l l}
+President & Andy Hasselwander  \\
+Vice President & Anu Swaminathan \\
+Secretary & Bernadette Kiel \\
+Treasurer & Sabine Kolbeck  \\
+Legal Counsel & Ryan Wallach \\
+Past President & Mika Ikeda \\
+\end{tabular}
+
+## Directors
+\begin{tabular}{l l l}
+Robert Dinkenspiel \\
+Marjorie Perloff \\
+Ron Schumacher \\
+George Schreiber \\
+
+\end{tabular}
+
+## Members-at-Large
+\begin{tabular}{l l l}
+Shelby Cook \\
+Josh Graham \\
+Stephanie Platzman-Diamant \\
+Anne Sagalyn \\
+Rebecca Dillon \\
+Susan Vaslow \\
+David Yellin \\
+Jay Bauer  \\
+Yaseman Bauer \\
+
+
+\end{tabular}
+
+## Standing Committee Chairs
+\begin{itemize}
+\item House: Bryce Vermillion
+\item Tennis: Paul Brown
+\item Grounds and Landscaping: Greg Kiel
+\item Social: Tatyana Knop and George Schreiber
+\end{itemize}
+
+## Community House Caretaker / Reservations
+
+Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630. The Community House is located at 7908 Glenbrook Road.
+
+\pagebreak
+\cleardoublepage\phantomsection
+# Community Map
 \includegraphics[width=1.0\textwidth]{CommunityMap.png}\par\vspace{1cm}
 \vfill
 
 \pagebreak
 
+\cleardoublepage\phantomsection
 \section{About Battery Park}
 
 Battery Park Citizens’ Association, Incorporated is a non-profit corporation, chartered in 1927 in the State of Maryland.  Membership is comprised of residents and property owners in the subdivision known as Battery Park, bordered by Wilson Lane, Old Georgetown Road and Maple Ridge Road.
@@ -86,14 +144,14 @@ The Association’s income is derived from property taxes collected by Montgomer
 
 Membership in the Association entitles residents and owners to use of the tennis courts and Clubhouse according to the rules promulgated for each.  These rules, the Association’s by-laws, and the names of current Board members are listed in this Directory.
 
-##Battery Park History
+## Battery Park History
 
 
-###Original Land Grant
+### Original Land Grant
 
 Most of Bethesda belonged to the original “Friendship” land grant of 3,124 acres that was awarded to Thomas Addison and James Stoddert on December 1, 1711.  The northern portion belonged to Stoddert (1562 acres) and included the area up to Edgemoor Lane.  Battery Park, adjacent to “Friendship” on the north, formed part of Thomas Fletchall’s 307 acre “Huntington” grant of which he took possession on December 10, 1715.
 
-###Early Bethesda Development
+### Early Bethesda Development
 
 By 1879, the future subdivision of Battery Park was part of farmland belonging to the Lewis Williams family.  The area became more attractive and accessible after March of 1890 when the Tennallytown and Rockville Railroad Company received a charter to extend the line another 3.75 miles from Friendship Heights to Alta Vista by way of Old Georgetown Road.  In 1891 the Railroad Company purchased a 50-acre tract of land at the end of the line and built “Bethesda Park”, an amusement park that included a bandstand, dancing pavilion, rides, Ferris wheel, bowling and refreshments, a hotel, and even an open space for hot-air balloon launching.  Bethesda Park was destroyed by fire and storm damage in August, 1896 and not rebuilt.
 
@@ -103,13 +161,13 @@ At the beginning of the 20th century, Bradley Boulevard did not exist as a roadw
 
 From Wisconsin Avenue the line passed through Edgemoor, then back to Bradley Boulevard, and on to Great Falls.  Although the line ran only until 1921, it did, however, provide an incentive to the development of this area.  Bradley Boulevard was later built on the former railway right-of-way.  The road was named after Joseph Bradley (son of the first Assistant Postmaster General) who had sold his farm to the founders of the Chevy Chase Country Club.
 
-###The Subdivision of Battery Park
+### The Subdivision of Battery Park
 
 Even after the initial development of neighboring Edgemoor, the area to the north remained barren farmland.  After World War I, four military officers either resigned or retired from the service and formed a real estate development company.   Major H.C. Maddux assumed the presidency of Maddux, Marshall, Moss & Mallory.  From their company headquarters located at the National Capital Building (923 15th Street), they controlled and managed five of Washington’s most prominent hotels as well as Washington Gardens, Garrett Park, a group of homes in Luzon Heights, and a community of small farms near Waldorf.  By March of 1923, Maddux, Marshall, Moss & Mallory had purchased the 53.59 acre farm wedged between Wilson’s Lane and the Georgetown Road, and developed the site for the construction of new homes.  The subdivision was formally approved on May 1, 1923.
 
 The developers intended to create a restricted community reserved only for military personnel.  Tradition holds that the name “Battery Park” derives from early residents who were World War I veterans from the same artillery battery.  This attractive neighborhood, however, soon drew the attention of the general public who also sought to settle in the area.  As a result of this interest, the developers finally relented and opened access to civilians “who would measure up to the standards required to live in Battery Park”.  The development and sales of Battery Park properties were so successful that the Maddux Company was called upon to take over real estate sales in Edgemoor.
 
-###Early Recollections
+### Early Recollections
 
 Prior to Battery Park’s initial residential development, there was a vegetable truck garden on some of the land, and a few stands of trees, but the area was largely bare of houses, streets or utilities.  The first houses (5203, 5205, 5207, and 5211 Wilson Lane) were completed by the end of 1923, and in the next year another 40 were added.  Growth was steady, though slowed by the stock market crash of 1929.  By the time of Pearl Harbor in 1941, there were houses built on almost 90 per cent of all the lots.
 
@@ -118,13 +176,12 @@ Construction was not typical of the mass-produced housing of today.  Foundations
 There were only small, newly planted trees, and, in one person’s recollection, Battery Park looked stark. School was at Bethesda Elementary and the B-CC High School on Leland Street, until the first of the new high school buildings on East-West Highway opened in September 1937. As is today, there was an annual 4th of July parade at the Clubhouse with bunting-decorated bicycles and, from the early 1930s, there were the perennial problems of “unnecessary” sirens from the fire trucks, how to get more people to attend the Association’s meetings, and debates concerning how best to manage the community's grounds.
 
 \pagebreak
-
-
+\cleardoublepage\phantomsection
 \section{The Community House}
 
-##House Rules
+## House Rules
 
-###Definitions and Scope
+### Definitions and Scope
 
 The term “Community House”, includes the Community House itself, located at 7908 Glenbrook Road, the Community House grounds, and any tangible property inside the house or on the grounds.  The term "the Association" refers to the Battery Park Citizens Association, Incorporated and its successors and assigns.  The term "Governing Board" refers to the Association's Governing Board or any board of directors or trustees that may succeed it.  A "member" is a resident taxpayer member of the Association, or a residential tenant of such a person, who is at least 21 years old; in any household having two or more such persons, all of such persons shall jointly and severally deemed to be the “member,” not only the person who signed the Application, although only one such person is required to attend and supervise the event, and therefore all such persons are responsible and liable for compliance with these House Rules. .
 
@@ -136,11 +193,11 @@ These House Rules apply only to use of the Community House by members.  These Ho
 \end{figure}
 
 
-###Supervision
+### Supervision
 
 The Community House shall be under the direct supervision of the House Committee Chairperson who shall, in turn, be responsible to the Governing Board.  (However, if and when the member using or wishing to use the Community House is the House Committee Chair, then all references in these House Rules to the House Committee Chair shall instead be deemed to refer to the President of the Association.)
 
-###Application Procedure
+### Application Procedure
 
 Application for use of the Community House shall be made by a member to the Caretaker at bpca.reservations@gmail.com at least three days, and not more than 90 days, in advance except under unusual circumstances such as wedding receptions.  Any approval under the "unusual circumstances" exception may be given only by the President or by the House Committee Chairperson.
 
@@ -150,7 +207,7 @@ The Caretaker is responsible for the assignment of specific reservation dates an
 
 If more than one member desires to reserve the Community House for the same date/time, the House Committee Chairperson shall determine which reservation shall be honored.  Although priority will generally be given in order of sign-up, there may be occasions when other considerations control. 
 
-###Deposits
+### Deposits
 
 The member is required to deposit with the Caretaker a deposit check made out to the Battery Park Citizens Association when the key is picked up for the event.  The amount of the deposit will be determined from time to time by the Governing Board.
 
@@ -159,7 +216,7 @@ In the event of a dispute over assigned charges, the matter will be referred by 
 
 The deposit is not the sole measure of damages or the sole remedy the Association has against a member who violates, or who is responsible for an event at the Community House that violates, these House Rules.  Members remain fully liable for any damage that exceeds the deposit.  Failure to pay will result in revocation of the privilege to use the Community House and may, in addition, result in legal process brought by the Association against the member for reimbursement.
 
-###Approved and Not Approved Uses
+### Approved and Not Approved Uses
 
 Use of the Community House for private social functions by members is permitted. 
 
@@ -179,7 +236,7 @@ The grounds of the Community House, including the tennis courts, front yard, fro
 
 A member granted use of the Community House for a specific date and time shall have exclusive use of the entire Community House (except for the Caretaker's own quarters) during that time.
 
-###The Member's Responsibilities
+### The Member's Responsibilities
 
 The member is responsible for ensuring orderly conduct at an event, and for securing the Community House at the end of the usage period. Unbecoming or disorderly conduct during an event is prohibited.  Any unbecoming or disorderly conduct will be reported to the Governing Board for appropriate action including, but not limited to, suspension of use privileges.
 
@@ -208,9 +265,9 @@ The member will defend (with counsel acceptable to the Association), indemnify a
 
 \pagebreak
 
-##House Usage Checklist
+## House Usage Checklist
 
-###Before: Readiness Checklist
+### Before: Readiness Checklist
 
 MEMBERS CAN EXPECT THE COMMUNITY HOUSE TO BE READY FOR USE.  Any problems in this regard should be promptly reported to the House Committee Chairperson.
 
@@ -224,7 +281,7 @@ All floors, kitchen appliances, surfaces and furniture clean
 \item Clean fireplace and mantle (fires are allowed in the fireplace but only with care)
 \end{itemize}
 
-###After: Clean-Up Checklist
+### After: Clean-Up Checklist
 
 To remove all doubt, members should treat the Community House as well as, or better than, they treat their own homes.  Without limiting that obligation, MEMBERS ARE REQUIRED TO:
 \begin{itemize}
@@ -242,12 +299,12 @@ To remove all doubt, members should treat the Community House as well as, or bet
 \item Be sure all items (dishes, serving implement, etc.) belonging to the Community House are returned to their proper places
 \end{itemize}
 
-###After the Community House is Used, the Caretaker Will:
+### After the Community House is Used, the Caretaker Will:
 \begin{itemize}
 \item Secure building
 \end{itemize}
 
-###And Within 12 Hours:
+### And Within 12 Hours:
 \begin{itemize}
 \item Mop floors
 \item Clean bathrooms
@@ -258,7 +315,9 @@ To remove all doubt, members should treat the Community House as well as, or bet
 
 \pagebreak
 
-##Application for Community House Usage
+## Application for Community House Usage
+
+Note: Please send information in the below application to bpca.reservations@gmail.com; it doesn't have to be in this precise format.
 
 \begin{doublespacing}
 \begin{tabular} {l l l}
@@ -291,7 +350,7 @@ Applicant’s Signature & Applicant’s Signature & Date \\
 \end{tabular}
 \end{doublespacing}
 \hspace{2cm}
-###Signed Application and Deposit of $\underline{\hspace{1cm}}.00_ Received By:
+### Signed Application and Deposit of $\underline{\hspace{1cm}}.00_ Received By:
 \begin{doublespacing}
 \begin{tabular} { l l }
 \underline{\hspace{5cm}} & \underline{\hspace{3cm}}  \\
@@ -302,11 +361,11 @@ Name & Date \\
 Revised: January 30th, 2013
 
 \pagebreak
-
+\cleardoublepage\phantomsection
 \section{Tennis Courts}
 
 
-##Tennis Court Rules
+## Tennis Court Rules
 \begin{enumerate}
 \item Use of these courts is restricted to Battery Park residents and their guests. Residents and guests are restricted to one court if other residents are waiting.
 \item The primary use of the tennis courts is for tennis, and whenever tennis players are using the court, or wish to use the court, anyone engaged in non-tennis activities shall, at the request of the players, vacate the courts.  The total number of individuals engaged in non-tennis activities shall not exceed ten at any given time.
@@ -326,26 +385,18 @@ Revised: January 30th, 2013
 \end{enumerate}
 
 \pagebreak
-
+\cleardoublepage\phantomsection
 \section{Parking}
 
-Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must display County-issued parking permits (except for most of Exeter Road, on which parking is not permitted, even for residents, Monday-Friday, 9:00-5:00).  Please note that parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
+Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must be in the County RPP (Residential Parking Permit) database. Cars may not park on most of Exeter Road on Monday-Friday, from 9:00-5:00. Please note that residents of Exeter Road are attempting to add their street to the RPP program as this Directory is being printed.  Parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
 
-Two-year Residential Permits:  Battery Park residents may purchase a permit for each car registered to their respective Battery Park addresses.  These permits are valid for two-years.  The cost is $20.00 each for the two-year period.  For permits purchased after the effective date, however, the cost is pro-rated for six-month intervals.  Applications for the permits require proof of residence within Battery Park, a copy of the Maryland registration certificate for each car (showing the owner’s Battery Park address, the year, make and model of each car, and each car’s Maryland tag number and vehicle serial number).
+Guest permits: Currently, guest permits must be renewed weekly, tied to a specific license plate. These are free of charge, and are tied to the household.
 
-Guest permits:  In addition to the residential permit described above, each household may purchase one guest permit which is valid for the same term as the regular residential permit.   The fee for the guest permit is also $20.00, pro-rated on the same basis as the residential permit when purchased after the start of the two-year period.
+Residents can obtain parking permits at https://montgomerycounty.digitalpermits.com/
 
-Renewals:  Applications for renewal are mailed to current permit holders by the County toward the end of each two-year period.
-
-Temporary/Visitor Permits:  For parties, house guests, tradespeople, new residents, etc., permits for up to 30 days may be obtained at no charge.  Be prepared to show proof of residence in Battery Park, such as tax or utility bills.
-
-Beginning June 5th, 2015, Montgomery County RPP neighborhood residents who need to renew their RPP permits can do so online. In lieu of mailing your renewal forms, the new program will enable RPP residents to apply online and process the permit access within minutes. RPP residents will no longer be required to place sticker decals on their vehicles; instead the new system will use license plate numbers to determine if vehicles have permission to park in the RPP area.
-
-Residents can renew parking permits at https://montgomerycounty.digitalpermits.com/
-
-Battery Park Residential Parking permits are granted only to residential properties located within Battery Park.  Once obtained, it is a violation of the Montgomery County Parking Regulations to transfer any valid Residential, Guest, or Temporary/Visitor Parking Permit to any employee of a commercial property within Battery Park, or to a friend or relative wishing to park in our neighborhood to walk to Metro or to be closer to their workplace.
 
 \begin{LARGE}
+\cleardoublepage\phantomsection
 \section{Frequently Used Numbers}
 \end{LARGE}     
 
@@ -356,22 +407,23 @@ Fire-Rescue, Non-emergency: & 240-777-2400 \\
 Police, Non-emergency: & 301-279-8000 \\
 Maryland State Police: & 301-424-2101 \\
 Bethesda Police Station: & 301-652-9200 & 7359 Wisconsin Avenue \\
-PEPCO: & 202-833-7500 \\
-Washington Gas: & 703-750-1000 \\
-Washington Suburban Sanitary Commission: & 301-699-4555 \\
-Montgomery County Solid Waste Services: & 240-777-6400 \\
-Montgomery County Government: & 240-777-1000 \\
-Montgomery County Council & 240-444-7900 \\
-Montgomery County Executive: & 240-777-2500 \\
-Department of Permitting Services: & 240-777-6200 \\
-Zoning Information/Enforcement: & 240-777-6240 \\
-Montgomery County Public Schools: & 301-279-3000 \\
-Montgomery County Board of Elections: & 301-279-3617 \\
-BCC Regional Services: & 240-777-8200 & 4805 Edgemoor Lane \\
+PEPCO: & 202-833-7500 & www.pepco.com/\\
+Washington Gas: & 703-750-1000 & www.washingtongas.com/ \\
+Washington Suburban Sanitary Commission: & 301-699-4555 & www.wsscwater.com \\
+Montgomery County 311: & 311 & www.montgomerycountymd.gov/mc311/ \\
+MC Solid Waste Services: & 240-777-6400 & www.montgomerycountymd.gov/sws/ \\
+MC Government: & 240-777-1000 & www.montgomerycountymd.gov \\ 
+County Council & 240-444-7900 & www.montgomerycountymd.gov/council/ \\
+County Executive: & 240-777-2500 & www.montgomerycountymd.gov/exec/ \\
+Permitting Services: & 240-777-6200 & permittingservices.montgomerycountymd.gov\\
+Zoning: & 240-777-6240 & mcatlas.org/zoning/ \\
+Montgomery County Public Schools: & 301-279-3000 & www.montgomeryschoolsmd.org/ \\
+Board of Elections: & 301-279-3617 & www.montgomerycountymd.gov/elections \\
+BCC Regional Services Center: & 240-777-8200 & www.montgomerycountymd.gov/bcc/\\
 Bethesda Regional Library & 301-986-4300 & 7400 Arlington Road \\
-Residential Parking Permits & https://montgomerycounty.digitalpermits.com \\
+Residential Parking Permits & montgomerycounty.digitalpermits.com \\
 Transit Information & 240-777-RIDE \\
-METRO Information: & 202-637-7000 \\
+METRO Information: & 202-637-7000 & www.wmata.com/ \\
 \end{tabu}
 
 \pagebreak
@@ -379,6 +431,7 @@ METRO Information: & 202-637-7000 \\
 
 
 \begin{LARGE}
+\cleardoublepage\phantomsection
 \section{Battery Park Citizens' Association By-Laws}
 \end{LARGE}
 
@@ -507,68 +560,12 @@ A proposed amendment must be presented to the Governing Board by one of its memb
 
 \pagebreak
 
-\section{Battery Park Citizen's Association 2017-2018 Board}
-
-
-##Officers
-
-\begin{tabular}{l l l l}
-President & Mary Jane Reese & 240-793-1134 & reesemaryjane@gmail.com  \\
-Vice President & Alyssa Rivkin & xxx-xxx-xxxxx & xx@xx.com \\
-Secretary & Adam Ducker & 301-802-9142 & aducker@rclco.comm \\
-Treasurer & Sabine Kolbeck & 301-656-1036 & skolbeck@yahoo.com \\
-Legal Counsel & Nancy Grunberg & 301-986-5520 & grunbergs@aol.com \\
-Past President & Andy Hasselwander & 301-908-7162 & ahasselwander@gmail.com \\
-\end{tabular}
-
-##Directors
-\begin{tabular}{l l l}
-Paul Brown & 301-652-5940 & paulwbrown@comcast.net \\
-Mike Ikeda & 917-386-4275 & mika.ikeda@gmail.com \\
-Bryce Vermillion & 202-569-6886 & bryce.vermillion@cbre.com \\
-George Schreiber & 301-652-2252 & epidemiologyman@gmail.com \\
-
-\end{tabular}
-
-##Members-at-Large
-\begin{tabular}{l l l}
-Erin Auerbach & 301-758-2347 & erin.bondo@gmail.com \\
-Paul Brown & 301-652-5940 & paulwbrown@comcast.net \\
-Alicia Delahunty & 240-426-5584 & alicia@valuablelessons.com \\
-Anna Fierst & 301-792-2338 & aefierst@gmail.com \\
-Josh Groman & 301-648-7693 & jdgroman@gmail.com \\
-Rosa Honarpishah & 301-655-2040 & rosa.honarpisheh@gmail.com \\
-Jen King & 301-656-3129 & jlk6k@hotmail.com \\
-Marjorie Perloff & 240-731-1772 & perloff@mail.nih.gov \\
-Fuad Sahouri & 703-395-4625 & fuadjr@sahouri.com  \\
-Frans Van Wagenberg & 301-951-0971 & vangwagenb@aol.com \\
-
-
-\end{tabular}
-
-##Standing Committee Chairs
-\begin{itemize}
-\item House: Bryce Vermillion
-\item Tennis: Paul Brown
-\item Grounds: Josh Groman
-\item Zoning and Land Use: Anna Fierst and Alicia Delahunty
-\item Social: Mika Ikeda and George Schreiber
-\end{itemize}
-
-##Community House Caretaker / Reservations
-
-Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630. The Community House is located at 7908 Glenbrook Road.
-
-\pagebreak
-
-
-
+\cleardoublepage\phantomsection
 \section{Alphabetical List of Battery Park Residents by Last Name}
 \begin{multicols}{2}
 
 
 ```{r  dev="pdf", results = "asis", echo = FALSE, cache=FALSE, message=FALSE, warning = FALSE, out.extra=''}
-
 source("executable.R")
 for(i in 1:length(directoryEntriesAll)){
         cat(" \\begin{samepage}" )
@@ -583,7 +580,7 @@ for(i in 1:length(directoryEntriesAll)){
 
 \pagebreak
 
-
+\cleardoublepage\phantomsection
 \section{Street Name Index}
 
 \begin{multicols}{3}
