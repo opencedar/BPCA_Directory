@@ -28,3 +28,4 @@ x <- which(sapply(directoryFrame$VacantForSale, isNotNullNAEmpty))
 sortedNamesFrameAll <- sortedNamesFrameAll[!(sortedNamesFrameAll$Index %in% x),]
 directoryEntriesAll <- makeDirectoryEntriesAll(sortedNamesFrameAll, dataFrame=directoryFrame)
 
+

@@ -39,16 +39,18 @@ pdfborder = {0 0 0}, colorlinks, citecolor=red, filecolor=Darkgreen, linkcolor=b
   \centering
   {\Huge\bfseries Battery Park Community Directory\par}
   \vspace{2cm}
+  {\Huge\bfseries Centennial Edition\par}
+  \vspace{2cm}
   {\huge\itshape 2023-2024\par}
   \vspace{1cm}
-  \includegraphics[width=0.9\textwidth]{Welcome.png}\par\vspace{2cm}
+  \includegraphics[width=0.9\textwidth]{Welcome_2.jpg}\par\vspace{2cm}
   \vfill
 
 % Bottom of the page
 
   {Printed on \today}
   \par
-  For directory changes, please email BPCADirectory@gmail.com, and changes will be reflected in next year's version.
+  For directory changes, please email BPCADirectory@gmail.com, and changes will be reflected in the next printed version.
 	
 \end{titlepage}
 
@@ -89,7 +91,7 @@ Past President & Mika Ikeda \\
 \begin{tabular}{l l l}
 Robert Dinkenspiel \\
 Marjorie Perloff \\
-Ron Schumacher \\
+Ron Shumacher \\
 George Schreiber \\
 
 \end{tabular}
@@ -119,7 +121,7 @@ Yaseman Bauer \\
 
 ## Community House Caretaker / Reservations
 
-Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630. The Community House is located at 7908 Glenbrook Road.
+Please email \href{mailto:bpca.reservations@gmail.com}{bpca.reservations@gmail.com} or call Annie and Melio Noblefranca, the caretakers, at 301-652-9630 with questions. Reservations can be made on the community website www.batteryparkmd.org. Membership is required to access the calendar.  Complete the member request form on the website. The Community House is located at 7908 Glenbrook Road.
 
 \pagebreak
 \cleardoublepage\phantomsection
@@ -140,40 +142,166 @@ Two meetings of the entire Association membership are held each year, for the el
 
 A newsletter is distributed to all residents a few days before each of the Board meetings.  Any resident wishing to place a notice in the newsletter or to share information with Battery Park residents should contact the Secretary or President.
 
+\begin{figure}
+\includegraphics[width=\textwidth]{penn_colonial.PNG}
+\caption{The Penn Colonial model, one of the original options homeowners could choose in 1923.}
+\end{figure}
+
 The Association’s income is derived from property taxes collected by Montgomery County and remitted to the Association.  There are no separate dues.  Expenditures go toward upkeep and improvements of the Clubhouse and grounds, social events, and other general community purposes.
 
 Membership in the Association entitles residents and owners to use of the tennis courts and Clubhouse according to the rules promulgated for each.  These rules, the Association’s by-laws, and the names of current Board members are listed in this Directory.
 
-## Battery Park History
+## Battery Park Area History: 1715-Present
+
+By David Zimmerman, who researched and wrote up through "Early Battery Park" for the 2023 Battery Park Centennial, and Charles Fortin who wrote "Early Recollections" in 1999.
+
+### Original Land Grants
+
+Battery Park was built on land in two of the Bethesda area land grants. 772 acre “Clagett's Purchase” was granted to Thomas Fletchell in 1715.\footnote{Maryland State Archives, Patents Index, MSA S1426} Fletchell was granted 2,964 acres between 1713 and 1716 along with another 1,768 acres in partnership with Charles Beall mainly in the Bethesda area.\footnote{Sheila Cochran, "Mount Nebo and the Fletchall Family," The Montgomery County Story 31, no. 2 (1988): 2} “Pritchett's Purchase,” the second grant, is a bit of a mystery. I have not found any entries for it in the land grant records available online but both it and Clagett's are mentioned in every deed related to the Battery Park area until 1922.\footnote{Despite not being in the land grant records, it does make a number of appearences in the plat maps. Pritchett's is listed in new neighborhood descriptions covering a huge hunk of Bethesda. Sonoma, Huntington Terrace, English Village, Edgemoor, Bradley Hills Section 2 (Bradley and Glenbrook), Highland Park (3 blocks along Montgomery Avenue east of Wisconsin Avenue), and Mae S Middleton's Subdivision (near the old Bethesda Theater east of Wisconsin Avenue) all mention Pritchett's in their plat maps.}
+
+Fletchell was also granted the adjacent 307 acre “Huntington” in 1715. The line dividing between Clagett's (and or Pritchett's) and Huntington to the west runs along the modern property boundaries between Maple Ridge Road and Custer Lane starting at Wilson Lane and continuing north across Old Georgetown Road.\footnote{United States Army. Air Corps. Aerial Photo Section No. 3. Photographic mosaic map, Washington, D.C. (Bolling Field, Washington, D.C.: The Section, 1928) Map}
 
 
-### Original Land Grant
+\begin{figure}
+\includegraphics[width=\textwidth]{aerial_2.jpg}
+\caption{Aerial photo mosaic from 1928. The stark contrast between the cleared and developing Battery Park and the largely forested land to the west shows the border between the land grants clearly.}
+\end{figure}
 
-Most of Bethesda belonged to the original “Friendship” land grant of 3,124 acres that was awarded to Thomas Addison and James Stoddert on December 1, 1711.  The northern portion belonged to Stoddert (1562 acres) and included the area up to Edgemoor Lane.  Battery Park, adjacent to “Friendship” on the north, formed part of Thomas Fletchall’s 307 acre “Huntington” grant of which he took possession on December 10, 1715.
 
-### Early Bethesda Development
+### Early Owners
 
-By 1879, the future subdivision of Battery Park was part of farmland belonging to the Lewis Williams family.  The area became more attractive and accessible after March of 1890 when the Tennallytown and Rockville Railroad Company received a charter to extend the line another 3.75 miles from Friendship Heights to Alta Vista by way of Old Georgetown Road.  In 1891 the Railroad Company purchased a 50-acre tract of land at the end of the line and built “Bethesda Park”, an amusement park that included a bandstand, dancing pavilion, rides, Ferris wheel, bowling and refreshments, a hotel, and even an open space for hot-air balloon launching.  Bethesda Park was destroyed by fire and storm damage in August, 1896 and not rebuilt.
+The ownership history of the land before 1840 is currently incomplete but the last will and testament of Captain Thomas Clagett II states that he purchased the Huntington grant from Thomas Fletchell and also owned Clagett's Purchase at the time of his death in 1733.\footnote{https://www.wikitree.com/wiki/Claggett-87; https://freepages.rootsweb.com/~klondike98/genealogy/ancestors_fw/a1.htm} A deed from 1714 shows that Captain Clagett bought the Clagett grant from Fletchell for 15,000 pounds of tobacco.\footnote{Prince George's County Land Records; Buyer, Clagett; Liber, E, Folio/Page, 426} It is not clear how this sale seems to pre-date the land grant certificate and patent dates of 1715.
 
-In 1913, Harry King and five promoters organized the Woodmont Country Club on a 68-acre site just east of Battery Park.  The club later sold the property to the “Public Health Institute” and established a new golf, tennis, and swimming facility on 500 acres in Rockville.
+Thomas leaves the Clagett's Purchase land to three of his sons. Thomas (Jr.?) got 200 acres and John and Charles split the remaining 577 acres. Huntington was left to his son Richard. A 1783 County Tax Assessment shows a John Clagett Sr., owning 277 acres of Clagett's Purchase and 32.5 acres of Pritchett's Purchase.\footnote{Maryland State Archives, Assessment of 1783 Index, Montgomery County, MSA S 1437.}
 
-At the beginning of the 20th century, Bradley Boulevard did not exist as a roadway but as a railway right-of-way which once extended between Wisconsin Avenue and Great Falls.  In order to provide access to their newly developed Bradley Hills subdivision in 1914, Thomas Earl Hampton, both father and son, built the Chevy Chase and Great Falls Railway.
+In 1805 Pritchett's Purchase (or part of it) was sold at a Sheriff's auction to Mary Maccubbin.\footnote{Montgomery County Land Records; Buyer, Maccubbin; Liber, M; Folio/Page, 280} Two years earlier, Mary bought Huntington (or 200 acres of it) from another Sheriff.\footnote{Montgomery County Land Records; Buyer, Maccubbin; Liber, L; Folio/Page, 101} He had to hold the auction twice as a buyer could not be found the first time, and Mary ended up purchasing 2-300 hundred acres of Bethesda real estate for the princely sum of 30 pounds and 13 shillings. In both cases, she was buying back land owned by her father Zachariah before the foreclosures as far as I can tell.
 
-From Wisconsin Avenue the line passed through Edgemoor, then back to Bradley Boulevard, and on to Great Falls.  Although the line ran only until 1921, it did, however, provide an incentive to the development of this area.  Bradley Boulevard was later built on the former railway right-of-way.  The road was named after Joseph Bradley (son of the first Assistant Postmaster General) who had sold his farm to the founders of the Chevy Chase Country Club.
+By 1820, the Battery Park area was part of a 181 acre parcel sold to Leonard Johns for $3,263.50.\footnote{Montgomery County Land Records; Buyer, Johns; Liber, V; Folio/Page, 102} There is a court appointed trustee sale in 1840 to John Harry after the previous owner passed away\footnote{Montgomery County Land Records; Buyer, Harry; Liber, BS; No, 10; Folio/Page, 294} and in 1843, Harry sells to Dexter Foster.\footnote{Montgomery County Land Records; Buyer, Foster; Liber, BS; No, 11; Folio/Page, 564} After Foster died, a dispute between his children and their guardian leads to yet another court appointed trustee, who is ordered to sell the land in 1849.\footnote{Montgomery County Land Records; Buyer, Williams; Liber, STS; No, 5; Folio/Page, 559}
 
-### The Subdivision of Battery Park
+The first half of the 19th century was not kind to Montgomery County. Almost a century of tobacco farming had depleted the soil and land was abandoned as people left the county in large numbers. The monumental \textit{A History of Western Maryland} paints a vivid picture:
 
-Even after the initial development of neighboring Edgemoor, the area to the north remained barren farmland.  After World War I, four military officers either resigned or retired from the service and formed a real estate development company.   Major H.C. Maddux assumed the presidency of Maddux, Marshall, Moss & Mallory.  From their company headquarters located at the National Capital Building (923 15th Street), they controlled and managed five of Washington’s most prominent hotels as well as Washington Gardens, Garrett Park, a group of homes in Luzon Heights, and a community of small farms near Waldorf.  By March of 1923, Maddux, Marshall, Moss & Mallory had purchased the 53.59 acre farm wedged between Wilson’s Lane and the Georgetown Road, and developed the site for the construction of new homes.  The subdivision was formally approved on May 1, 1923.
+\begin{quote}
+Then succeeded the period of old fields and decaying worm fences and mouldering homesteads. This
+saddest condition of the country had reached its climax about 1840, at which time the population
+reached its minimum. Then and before the lands bordering on the Rockville and Georgetown
+turnpike, the only paved road in the county, were with the exception of Robert Dick's farm and one
+or two others, but a succession of uninclosed fields.\footnote{Scharf, J. Thomas (John Thomas), \textit{History of Western Maryland: Being a History of Frederick, Montgomery, Carroll, Washington, Allegany, and Garrett Counties From the Earliest Period to the Present Day; Including Biographical Sketches of Their Representative Men,} (Philadelphia: L. H. Everts, 1882), 653. (Note: A "worm fence" or "zigzag fence" is also known as a split-rail fence.)}
+\end{quote}
 
-The developers intended to create a restricted community reserved only for military personnel.  Tradition holds that the name “Battery Park” derives from early residents who were World War I veterans from the same artillery battery.  This attractive neighborhood, however, soon drew the attention of the general public who also sought to settle in the area.  As a result of this interest, the developers finally relented and opened access to civilians “who would measure up to the standards required to live in Battery Park”.  The development and sales of Battery Park properties were so successful that the Maddux Company was called upon to take over real estate sales in Edgemoor.
+Recovery started about 1845 when Quakers in Sandy Spring discovered how to rejuveneate the soil using Peruvian sea bird guano. Scharf provides another colorful description of the result:
+
+\begin{quote}
+Its effect was magical. It had the properties of Alladdin's lamp... From this epoch may be dated the
+cereal-growing period. New post-and-rail fences replaced the old zigzag affairs, old buildings were renovated and new ones erected, and the fields teemed with bountiful harvests. The decade from
+1850 to 1860 was one of unrivaled prosperity to the people.
+\end{quote}
+
+The modern boundaries of Battery Park begin with the sale of 51 acres of the 181 acre tract to Lewis Williams for $951 in 1851.\footnote{Deeds and various maps show a range of 50 – 53 acres for the Battery Park area} The online scan of the deed is difficult to read but it appears that Allison Nailor, who owned 264 acres west of Bradley Blvd, was the original buyer and he somehow nominated Williams to purchase in his stead. The 51 acre lot is the same as the original Battery Park boundaries being bordered by Old Georgetown Road on the North/East side, Wilson Lane on the South and a line following the property boundaries between Custer Lane and Maple Ridge Road on the West side. The creation of Wilson Lane in January of 1851\footnote{The road had no name at the time as far as I can tell. It is referred to as “the public road” or “the road to the Nailor estate” in the deeds I have researched from this time period. In 1914 a plat is filed which I believe first gives the road the name of the Wilson family that farmed a parcel called “Mountain View” on the south side of the road bounded by Honeywell Lane, Wilson Lane and Bradley Boulevard. Sources: Montgomery County Subdivision Plats: Plat of Wilsons Lane from Woodmont to Glen Echo. 06/04/1914.
+Plat 170. MSA s1249-007980; Offutt, William, Bethesda: A Social History of the Area Through World War Two, 3rd ed. (Bethesda: The Innovation Game, 1996), 282.} involved both Williams and Nailor and seems to pre-date the Williams purchase of the Battery Park land in November of that year but that document scan is even harder to read than the one mentioned above so further investigation is needed. The document detailing the creation of the road calls the Willliams property “Clagett Spring Farm.”\footnote{t is unknown if the name of the farm came from the original land grant or from one of the several Clagetts who owned the land later. In addition to Capt. Thomas Clagett II and his sons, a Walter and Martha Clagett owned the land before 1820.}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{usgs_1885.jpg}
+\caption{US Geological Survey Map, 1885}
+\end{figure}
+
+### The Socialite and the Land Baron
+
+The 51 acre lot is sold to Magruder Willson Offutt in 1885\footnote{Montgomery County Land Records; Buyer, Offutt; Liber, EBP; No, 35; Folio/Page, 64} and then George Armes in March of 1890.\footnote{Montgomery County Land Records; Buyer, Armes; Liber, JA; No, 17; Folio/Page, 142} A
+month later, Armes sells to John Mitchell.\footnote{Montgomery County Land Records; Buyer, Mitchell; Liber, JA; No, 17; Folio/Page, 336} Mitchell is a partner/agent of John Beall who for a brief few years, was the major player in Bethesda real estate. Inspired by the success of the Chevy Chase development, Beall and his partners bought up over 1,000 acres of land from Friendship Heights to Alta Vista and another 1,200 acres around the Montgomery Mall area in 1890.\footnote{Fava Naeff \& Co, Francis R Fava, and Baltimore And Ohio Railroad Company. \textit{Real estate map of the
+Metropolitan Branch of the Baltimore and Ohio Railroad Company between Washington, D.C., and
+Rockville, Md., and adjacent land holdings: from latest official authorities and actual surveys.}
+Washington: Francis R. Fava Jr, 1890} They constructed an electric trolley line from the District
+line along Wisconsin Avenue to Old Georgetown Road extending out to Alta Vista. Then they built a 50 acre amusement park at the end of the line on the site of the current Oakmont and Sonoma neighborhoods and called it “Bethesda Park.”\footnote{William Allman, "Bethesda Park: The Handsomest Park in the United States," \textit{The Montgomery County Story} 34, no. 3 (1991): 165-176}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{usgs_1915.jpg}
+\caption{US Geological Survey Map, 1915}
+\end{figure}
+
+Beall and his buddies owned most of the land including and surrounding Battery Park but must have seen a live one coming when Rhode Island socialite Rebekah Goddard came to town and they sell her the 51 acre lot for $18,000 only two weeks after Mitchell bought the land.\footnote{Montgomery County Land Records; Buyer, Mitchell; Liber, JA; No, 17; Folio/Page, 431} A stipulation in the deed mandates the creation of a road connecting a point on Old Georgetown Road with a point midway on the Western border. This is now Goddard Road. Beall had a residence on the east side of Old Georgetown\footnote{ Offutt, William, Bethesda: \textit{A Social History of the Area Through World War Two}, 3rd ed. (Bethesda: The Innovation Game, 1996), 285. See also 1894 Hopkins map for Beall residence location on Old Georgetown Rd.} and owned the land to the west of the Custer Road/Maple Ridge border from Wilson Lane out past Cedar Lane. He has Mitchell buy this 311 acres in 1890, buys it from Mitchell in 1892, sells it to the American Security \& Trust Company two days later, and then buys back a ten acre lot carved from it six months after that.\footnote{John Beall land grab deeds 1890-1892: JA 17 385-386; JA 33 152, 185; JA 34 482} This ten acres would become the
+“Battery Park Hills” neighborhood with a plat filed in 1925 by then owner A. C. Reubsam.\footnote{Montgomery County Subdivision Plats: \textit{Battery Park Hills.} 03/31/1925. Plat 296. MSA s1249-008108.}
+
+The ownership history of this piece of land that happens to include the highest point of land in Bethesda then becomes rather chaotic. The highlights include Beall going bust in the financial panic of 1893-1897 and abandoning his home on Old Georgetown Road followed by a series of seven owners between 1892 and 1903.\footnote{Battery Park Hills 10 acre tract deals 1892-1903: JA 34 482; JA 38 306; JA 53 475; TD 16 234; TD 17 139; TD 26 280. Note: H. Bradley Davision bought and sold the land twice. He and Spencer Watkins were business associates of Beall.}
+
+Goddard seems to have avoided such turmoil and is the sole owner of the 51 acre parcel until her passing in 1914. Why the very wealthy Goddard\footnote{Rebekah Goddard was the daughter of US Representative William Slocum Grosbeck.
+https://en.wikipedia.org/wiki/William_S._Groesbeck
+She married Robert Hale Ives Goddard in 1870.
+https://en.wikipedia.org/wiki/Robert_Hale_Ives_Goddard
+Daughter Madeline (later the Marquise d'Andigné) was called "one of the richest of the American
+heiresses" She received the Legion d'Honneur for her volunteer nursing work during WWI.
+https://en.wikipedia.org/wiki/Madeleine_Ives_Goddard} had any interest in a slice of Bethesda at a time when the town had little to offer besides a few general stores and blacksmith shops remains a question. Little is also known what she or her family did on the land but Offutt provides some clues: 
+
+\begin{quote}
+In 1922 Maddux, Marshall and Company entered the Bethesda building boom by purchasing a large,
+triangular chunk of the old fields and scrub land between Wilson's lane and the Georgetown road.
+The blacksmith Lochtes had tenant farmed from a house surrounded by willows on the hill where Del
+Ray later curved. The last member of the family to raise corn and potatoes on the land was “Dinks”
+Rodgers whose mother was Roy Lochte's sister. This 52 acre subdivision was the first in Bethesda to
+benefit from the birth of the WSSC.\footnote{Offut, \textit{Bethesda: A Social History,} 318.}
+\end{quote}
+
+Offutt mentions "Dinks" several times. He became one of the first Bethesda policmen in 1922 (perhaps as a result of losing his farming land that year) and retired as a Captain in 1944. William Lochte came to Bethesda just after the Civil War and started a blacksmith shop at the corner of Wisconsin Aveue and Old Georgetown Road where the Bank of Bethesda building now stands.\footnote{Offut, \textit{Bethesda: A Social History,} 281.}
+
+Tempe Curry recalls the state of the old farmhouse during the early years of Battery Park:
+
+\begin{quote}
+There was nothing across from us, but up on Del Ray there was a wonderful tree we climed, and an
+excavation, a sort of dump, that was the original old house.\footnote{ Offut, \textit{Bethesda: A Social History,} 320. The Curry's moved to 5207 Battery Lane on January 1, 1924.}
+\end{quote}
+
+### Early Battery Park
+
+Even after the initial development of neighboring Edgemoor, the area to the north remained barren farmland.  After World War I, four military officers either resigned or retired from the service and formed a real estate development company. Major H.C. Maddux assumed the presidency of Maddux, Marshall, Moss \& Mallory. From their company headquarters located at the National Capital Building (923 15th Street), they controlled and managed five of Washington’s most prominent hotels as well as Washington Gardens, Garrett Park, a group of homes in Luzon Heights, and a community of small farms near Waldorf.  By March of 1923, Maddux, Marshall, Moss \& Mallory had purchased the 53.59 acre farm wedged between Wilson’s Lane and the Georgetown Road, and developed the site for the construction of new homes.  The subdivision was formally approved on May 1, 1923.
+
+The developers intended to create a restricted community reserved only for military personnel.  Tradition holds that the name “Battery Park” derives from early residents who were World War I veterans from the same artillery battery.  This attractive neighborhood, however, soon drew the attention of the general public who also sought to settle in the area.  As a result of this interest, the developers finally relented and opened access to civilians “who would measure up to the standards required to live in Battery Park”. The development and sales of Battery Park properties were so successful that the Maddux Company was called upon to take over real estate sales in Edgemoor.
+
+Goddard's children offically sold to developer Maddux Marshall \& Co. in December 1922.\footnote{Montgomery County Land Records; Buyer, M. M. \& Co., No, 324; Folio/Page, 283}
+
+The neighborhood was designed and the plats drawn in October 1922. The plats were filed in March (Section 1) and August of 1923 (Sections 2 \& 3).\footnote{Montgomery County Subdivision Plats:
+Battery Park, Section 1. 03/01/1923. Plats 245, 260; 261. MSA s1249-8073.}
+
+The land records show that the house at 7806 Fairfax Road was the first sold in the neighborhood with a deed dated March 30, 1923.\footnote{Montgomery County Land Records – First 5 Battery Park house sales
+
+Griffith PBR 328 430
+Bennet PBR 332 211
+Townsend PBR 332 278
+Marshall PBR 332 333
+Eisenman PBR 334 8 Empty lot
+Moffett PBR 334 3}
+
+Grace Pariseau, (7814 Maple Ridge Road) recalls the early development of the neighborhood. She and her family moved to Bethesda in April 1923.
+
+\begin{quote}
+When we moved here five houses were completed and occupied – three on Fairfax road and two on
+Wilson Lane. Several more on Glenbrook, Battery Lane and Wilson Lane were near completion and
+their streets were paved. Our house was completed and we moved in on July 5, 1923.\footnote{Offut, \textit{Bethesda: A Social History,} 318-319.}
+\end{quote}
+
+She was correct about the first 5 houses but a bit off on the timing. Only one house had been sold by April. The 2nd house was sold on May 4th and the 5th house wasn't sold until June 11th. The neighborhood developed quickly with approximately 30 homes and 18 empty lots sold by the end of the
+first year.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{usgs_1927.jpg}
+\caption{US Geological Survey Map, 1927}
+\end{figure}
 
 ### Early Recollections
 
 Prior to Battery Park’s initial residential development, there was a vegetable truck garden on some of the land, and a few stands of trees, but the area was largely bare of houses, streets or utilities.  The first houses (5203, 5205, 5207, and 5211 Wilson Lane) were completed by the end of 1923, and in the next year another 40 were added.  Growth was steady, though slowed by the stock market crash of 1929.  By the time of Pearl Harbor in 1941, there were houses built on almost 90 per cent of all the lots.
 
-Construction was not typical of the mass-produced housing of today.  Foundations were excavated by a horse-drawn metal scoop.  Galvanized pipe was threaded by hand.  There were no electric saws to cut the full-size 2x4’s.  Covenants required that houses cost at least $6,500 and some were in the $9,000 to $12,000 range.  The Dutch Colonial with its gambrel roof was a favorite in Battery Park, as it was all over the Washington and the whole eastern U.S.  Bathrooms in the basement bespoke a day when servants were expected and affordable.  
+Construction was not typical of the mass-produced housing of today.  Foundations were excavated by a horse-drawn metal scoop.  Galvanized pipe was threaded by hand.  There were no electric saws to cut the full-size 2x4’s.  Covenants required that houses cost at least $6,500 and some were in the $9,000 to $12,000 range.  The Dutch Colonial with its gambrel roof was a favorite in Battery Park, as it was all over the Washington and the whole eastern U.S.  Bathrooms in the basement bespoke a day when servants were expected and affordable.
 
 There were only small, newly planted trees, and, in one person’s recollection, Battery Park looked stark. School was at Bethesda Elementary and the B-CC High School on Leland Street, until the first of the new high school buildings on East-West Highway opened in September 1937. As is today, there was an annual 4th of July parade at the Clubhouse with bunting-decorated bicycles and, from the early 1930s, there were the perennial problems of “unnecessary” sirens from the fire trucks, how to get more people to attend the Association’s meetings, and debates concerning how best to manage the community's grounds.
+
+### Modern Battery Park
+
+Today, Battery Park is a vibrant family neighborhood, composed of 192 single-family homes and multiple businesses along Old Georgetown Road. Just across the street from the "Woodmont Triangle" area of restaurants and shops--which now includes Marriott's world headquarters--it offers residents a wonderful compromise between urban convenience and leafy, green suburban yards. Battery Park remains popular for commuters into Washington, D.C., with its easy access to the Metro's Red Line at Bethesda.
+
+The Community House, which has now been in operations for 100 years, remains a highlight of the community. The tennis courts, basketball court, playground, and house are a meeting point for neighbors, and serve as a reminder of Battery Park's early days.
+
+Battery Park is known for its trees. The Board's tree committee has aggressively maintained and expanded the tree canopy in the right-of-ways along our streets, replacing damaged and dead trees with a variety of climate-resilient, hardy native species, including American Hornbeam, Sweetgum, Swamp Maple, and Willow Oak.
+
+In 2023, Battery Park celebrated its Centennial, with a block party on Glenbrook Road in front of the Community House. Residents enjoyed learning about the history of Battery Park, listened to live music from different eras, and reflected upon all of the lives that have been lived--and are still being lived--in our wonderful little community. The photographs of early Battery Park, along with plats and maps, are now on display in the basement and main level of the Community House.
 
 \pagebreak
 \cleardoublepage\phantomsection
@@ -199,7 +327,7 @@ The Community House shall be under the direct supervision of the House Committee
 
 ### Application Procedure
 
-Application for use of the Community House shall be made by a member to the Caretaker at bpca.reservations@gmail.com at least three days, and not more than 90 days, in advance except under unusual circumstances such as wedding receptions.  Any approval under the "unusual circumstances" exception may be given only by the President or by the House Committee Chairperson.
+Application for use of the Community House shall be made by a member to the Caretaker at bpca.reservations@gmail.com or via the community website www.batteryparkmd.org at least three days, and not more than 90 days, in advance except under unusual circumstances such as wedding receptions. The caretaker will confirm your reservation via email. Any approval under the "unusual circumstances" exception may be given only by the President or by the House Committee Chairperson.
 
 An application for use of the Community House shall be submitted by the member, accompanied by a full explanation of the intended purpose, i.e., whether a private party or group function, the maximum number of people expected to attend, if they will be from within or outside Battery Park, and precise times the event will begin and end (including time needed for preparations and cleanup). 
 
@@ -209,7 +337,7 @@ If more than one member desires to reserve the Community House for the same date
 
 ### Deposits
 
-The member is required to deposit with the Caretaker a deposit check made out to the Battery Park Citizens Association when the key is picked up for the event.  The amount of the deposit will be determined from time to time by the Governing Board.
+The member is required to deposit with the Caretaker a deposit check made out to the Battery Park Citizens Association when the key is picked up for the event.  The amount of the deposit will be determined from time to time by the Governing Board. Contact the caretaker at bpca.reservations@gmail.com.
 
 The deposit check will be returned upon request or otherwise shredded when the key is returned to the Caretaker within 24 hours after the function, provided that the Community House has been left in an adequately clean and undamaged condition at the conclusion of the usage period.  As more fully noted below, a determination of such condition shall be made in the first instance by the House Committee Chairperson.  If the Caretaker is required to clean the House, or if damage to the Community House (including the grounds) has occurred, the deposit will be forfeited in the amount required to correct the damage as determined by the House Committee Chairperson. 
 In the event of a dispute over assigned charges, the matter will be referred by the House Committee Chairperson to the Governing Board for consideration at its next regular meeting, at which time the aggrieved member may present his/her views to the Governing Board.  The Governing Board’s decision shall be binding.
@@ -222,7 +350,7 @@ Use of the Community House for private social functions by members is permitted.
 
 Any member may sponsor the use of the Community House in conjunction with a specific organization twice within a calendar year.  The member must be a bona fide member of such organization.
 
-Any member household may reserve the Community House free of charge for up to three holiday or weekend events in a calendar year.  For these purposes a holiday is defined as a Federal holiday and includes the preceding evening as well (e.g. Christmas Eve or New Year’s Eve).  Similarly, a weekend is defined as beginning after 5:00 p.m. on Friday and running through Sunday.  Exceptions to the three-event maximum can be granted by the House Committee Chairperson, but only under compelling circumstances.
+Any member household may reserve the Community House free of charge for up to three holiday or weekend events in a calendar year.  For these purposes a holiday is defined as a Federal holiday and includes the preceding evening as well (e.g. Christmas Eve or New Year’s Eve). Similarly, a weekend is defined as beginning after 5:00 p.m. on Friday and running through Sunday. Exceptions to the three-event maximum can be granted by the House Committee Chairperson, but only under compelling circumstances.
 
 Events, even if entirely indoors, must end by 10:00 p.m. (not including required clean up period) on Sunday through Thursday nights and by 12:00 a.m. (not including required clean up period) on Friday and Saturday nights and nights preceding holidays.
 
@@ -230,9 +358,13 @@ The maximum attendance permitted at any event for adults inside the Community Ho
 
 Use of the Community House for children's events shall normally be limited to groups of no more than 25 persons (adults and children). Exceptions to this rule may be made at the discretion of the Committee Chairperson.  It is the responsibility of the member to ensure that attendance does not exceed these limits.
 
-Use of the tennis courts is not included with Community House use except for tennis parties which have been approved in advance by the Tennis Committee Chairperson.
+Use of the tennis and basketball courts is not included with Community House use except for parties which have been approved in advance by the Board.
 
-The grounds of the Community House, including the tennis courts, front yard, front porch, playground and backyard, are not to be used for any activities of any sort, regardless of time of day, or for evening or early morning events or at any other hours, that may be an unreasonable nuisance to neighbors. Furthermore, if music is played in the Clubhouse, the doors and windows shall remain closed to avoid causing disturbance to neighbors.
+The grounds of the Community House, including the tennis courts, front yard, front porch, playground and backyard, are not to be used for any activities of any sort, regardless of time of day, or for evening or early morning events or at any other hours, that may be an unreasonable nuisance to neighbors. Furthermore, if music is played in the Clubhouse, the doors and windows shall remain closed to avoid causing disturbance to neighbors. Concretely, loud outdoor music (DJs, bands) and amplifiers are not permitted.
+
+Smoking is strictly prohibited both inside the House and on the grounds.
+
+The Community House has a shared driveway with a Battery Park neighbor. Please do not block in the caretaker's vehicle on the left side, and under no circumstances park on the right side of the driveway. Please utilize street parking on Glenbrook Road and Battery Lane.
 
 A member granted use of the Community House for a specific date and time shall have exclusive use of the entire Community House (except for the Caretaker's own quarters) during that time.
 
@@ -245,7 +377,7 @@ The member must be present throughout the duration of the event.
 When use of the Community House is for an event primarily for persons under 21 years of age, the parent sponsoring the event must submit the application, must attend and supervise the event throughout its duration, and no alcohol (even for adults) is permitted at such events.
 
 \begin{figure}
-\includegraphics{CommunityHouse.png}
+\includegraphics[width=1.0\textwidth]{CommunityHouse.jpg}\par\vspace{1cm}
 \caption{The Community House is a unique resource for members and their guests.}
 \end{figure}
 
@@ -257,7 +389,7 @@ Electrical outlets or other sources of electricity (including, but not limited t
 
 No article may be borrowed or taken from the Community House at any time.
 
-No smoking is permitted at the Community House at any time.
+No smoking is permitted at the Community House or on the grounds at any time.
 
 The member shall ensure that the Community House is left in good order, e.g., the walls, floors, furnishings, and equipment are cleaned and undamaged following an event.  The Association may determine guidelines or checklists for that purpose from time to time.  If the Association does so, those guidelines or checklists shall govern.  In the absence of such guidelines or checklists, or if interpretation of guidelines or checklists is needed, the reasonable judgment of the House Committee Chairperson shall govern.  Charges will be assessed for replacing missing property, repairs, and/or excessive clean-up as required.
 
@@ -306,8 +438,7 @@ To remove all doubt, members should treat the Community House as well as, or bet
 
 ### And Within 12 Hours:
 \begin{itemize}
-\item Mop floors
-\item Clean bathrooms
+\item Wipe down bathroom surfaces
 \item Clean fireplace and dust mantle
 \item See that all items on Readiness Checklist are in order as specified
 \item Report to the House Committee Chairperson on the member’s general compliance or non-compliance with the foregoing and the House Rules.
@@ -332,7 +463,7 @@ Usage period (including preparation and clean up): & \underline{\hspace{7cm}} \\
 \end{tabular}
 \end{doublespacing}
 
-A comprehensive description of the HOUSE RULES and HOUSE USAGE CHECKLIST governing Community House events (hereinafter, the “House Rules”) appears in the Battery Park Community Directory. Prior to using the Community House, please become familiar with the House Rules, including those related to consuming alcohol at the Community House and restrictions on noise levels on the grounds of the Community House, including noise restrictions on the use of the porch or outdoor grounds after 9pm.  All events at the Community House must abide by the Montgomery County Noise Ordinance, the details of which may be reviewed at:                                                                                                                            
+A comprehensive description of the HOUSE RULES and HOUSE USAGE CHECKLIST governing Community House events (hereinafter, the “House Rules”) appears in the Battery Park Community Directory. Prior to using the Community House, please become familiar with the House Rules, including those related to consuming alcohol at the Community House and restrictions on noise levels on the grounds of the Community House, including noise restrictions on the use of the porch or outdoor grounds after 9pm. All events at the Community House must abide by the Montgomery County Noise Ordinance, the details of which may be reviewed at:                                                                                                                            
 \par http://www.montgomerycountymd.gov/dectmpl.asp?url=/content/dep/community/ordinance.asp
 
 \par By signing this Application for Community House Usage, the applicant hereby acknowledges that: 
@@ -364,6 +495,11 @@ Revised: January 30th, 2013
 \cleardoublepage\phantomsection
 \section{Tennis Courts}
 
+\begin{figure}
+\includegraphics[width=\textwidth]{dutch_colonial.PNG}
+\caption{The Dutch Colonial model, perhaps the most popular original option.}
+\end{figure}
+
 
 ## Tennis Court Rules
 \begin{enumerate}
@@ -388,42 +524,43 @@ Revised: January 30th, 2013
 \cleardoublepage\phantomsection
 \section{Parking}
 
-Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must be in the County RPP (Residential Parking Permit) database. Cars may not park on most of Exeter Road on Monday-Friday, from 9:00-5:00. Please note that residents of Exeter Road are attempting to add their street to the RPP program as this Directory is being printed.  Parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
+Cars that park on the streets of Battery Park on Mondays through Fridays, between 9:00 a.m. and 5:00 p.m., must be in the County RPP (Residential Parking Permit) database. Cars may not park on most of Exeter Road on Monday-Friday, from 9:00-5:00. Parking permits are issued by the County, not by the Battery Park Citizens Association, and that parking enforcement is done by the County, not by the Battery Park Citizens Association.
 
-Guest permits: Currently, guest permits must be renewed weekly, tied to a specific license plate. These are free of charge, and are tied to the household.
+Guest permits: Up to two one-year visitor permits may be purchased per dwelling unit for $20 each. Seven-day temporary permits can also be obtained, as well as 6 month permits for contractor vehicles.
 
-Residents can obtain parking permits at https://montgomerycounty.digitalpermits.com/
+Residents can obtain parking permits at: https://www.montgomerycountymd.gov/DOT-Parking/DigitalPermits.html.
 
 
 \begin{LARGE}
 \cleardoublepage\phantomsection
-\section{Frequently Used Numbers}
+\section{Helpful Websites and Numbers}
 \end{LARGE}     
 
-\begin{tabu} to 1.0 \textwidth { X[3] X[1] X[1.5 J b] }
-COMMUNITY HOUSE RESERVATIONS: & 301-652-9630 & bpca.reservations@gmail.com\\
-Fire, Police or Emergency Rescue: & 911 \\
-Fire-Rescue, Non-emergency: & 240-777-2400 \\
-Police, Non-emergency: & 301-279-8000 \\
-Maryland State Police: & 301-424-2101 \\
-Bethesda Police Station: & 301-652-9200 & 7359 Wisconsin Avenue \\
+\begin{tabu} to 1.0 \textwidth { X[2] X[1] X[2 J b] }
+Comm. House Reservations: & 301-652-9630 & bpca.reservations@gmail.com\\
+BP Website: & & www.batteryparkmd.org \\
+Fire, Police, and Rescue: & 911\\
+Fire-Rescue, Non-emergency: & 240-777-2400\\
+Police, Non-emergency: & 301-279-8000\\
+Maryland State Police: & 301-424-2101\\
+Bethesda Police Station: & 301-652-9200 & 7359 Wisconsin Avenue\\
 PEPCO: & 202-833-7500 & www.pepco.com/\\
 Washington Gas: & 703-750-1000 & www.washingtongas.com/ \\
-Washington Suburban Sanitary Commission: & 301-699-4555 & www.wsscwater.com \\
-Montgomery County 311: & 311 & www.montgomerycountymd.gov/mc311/ \\
-MC Solid Waste Services: & 240-777-6400 & www.montgomerycountymd.gov/sws/ \\
+WSSC (Water): & 301-699-4555 & www.wsscwater.com \\
+Montgomery County 311: & 311 & www.montgomerycountymd.gov/mc311/\\
+Solid Waste Services: & 240-777-6400 & www.montgomerycountymd.gov/sws\\
 MC Government: & 240-777-1000 & www.montgomerycountymd.gov \\ 
 County Council & 240-444-7900 & www.montgomerycountymd.gov/council/ \\
 County Executive: & 240-777-2500 & www.montgomerycountymd.gov/exec/ \\
-Permitting Services: & 240-777-6200 & permittingservices.montgomerycountymd.gov\\
-Zoning: & 240-777-6240 & mcatlas.org/zoning/ \\
-Montgomery County Public Schools: & 301-279-3000 & www.montgomeryschoolsmd.org/ \\
-Board of Elections: & 301-279-3617 & www.montgomerycountymd.gov/elections \\
-BCC Regional Services Center: & 240-777-8200 & www.montgomerycountymd.gov/bcc/\\
-Bethesda Regional Library & 301-986-4300 & 7400 Arlington Road \\
-Residential Parking Permits & montgomerycounty.digitalpermits.com \\
-Transit Information & 240-777-RIDE \\
-METRO Information: & 202-637-7000 & www.wmata.com/ \\
+Permitting: & 240-777-6200 & permittingservices.montgomerycountymd.gov\\
+Zoning: & 240-777-6240 & mcatlas.org/zoning/\\
+MCPS: & 301-279-3000 & www.montgomeryschoolsmd.org/\\
+Board of Elections: & 301-279-3617 & www.montgomerycountymd.gov/elections\\
+BCC Regional Svcs Center: & 240-777-8200 & www.montgomerycountymd.gov/bcc\\
+Connie Morella Library & 301-986-4300 & 7400 Arlington Road\\
+Parking Permits & & www.montgomerycountymd.gov/DOT-Parking/DigitalPermits.html\\
+Ride On Buses & 240-777-RIDE & https://rideon.app\\
+METRO Information: & 202-637-7000 & www.wmata.com/\\
 \end{tabu}
 
 \pagebreak
@@ -592,6 +729,12 @@ for(i in 1:length(streetEntries)){
 }
 ```
 \end{multicols}
+
+\newpage
+
+\
+
+\newpage
 
 
 
