@@ -94,9 +94,9 @@ makeLetterStarts <- function(directoryFrame=directoryFrame, sortedNamesFrameAll 
         letterStarts <-  vector(mode="character", length=nrow(sortedNamesFrameAll))
         letterStarts[1] <- substr(sortedNamesFrameAll$lastName[1],1,1)
         for(i in 2:nrow(sortedNamesFrameAll)) {
-                a <- substr(sortedNamesFrameAll$lastName[i],1,1)
-                b <- substr(sortedNamesFrameAll$lastName[i-1],1,1)
-                if((a != b) && (!is.na(a)) && (!is.na(b)) && (!is.null(a)) && (!is.null(b))) {letterStarts[i] <- a}
+                a <- tolower(substr(sortedNamesFrameAll$lastName[i],1,1))
+                b <- tolower(substr(sortedNamesFrameAll$lastName[i-1],1,1))
+                if((a != b) && (!is.na(a)) && (!is.na(b)) && (!is.null(a)) && (!is.null(b))) {letterStarts[i] <- toupper(a)}
         }
         return(letterStarts)
 }
